@@ -36,7 +36,7 @@ templates_path = ['_templates']
 # for a list of supported languages.
 #
 # This is also used if you do content translation via gettext catalogs.
-# Usually you set "language" from the command line for these cases.
+# Usually you set 'language' from the command line for these cases.
 language = 'en,ca'
 
 # List of patterns, relative to source directory, that match files and
@@ -50,9 +50,18 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'pydata_sphinx_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
-# so a file named "default.css" will overwrite the builtin "default.css".
+# so a file named 'default.css' will overwrite the builtin 'default.css'.
 html_static_path = ['_static']
+
+html_theme_options = {
+  'github_url': 'https://github.com/vilardellsalles',
+#  'gitlab_url': 'https://gitlab.com/<your-org>/<your-repo>',
+  'twitter_url': 'https://twitter.com/vilardellsalles',
+  'search_bar_position': 'navbar',
+  'search_bar_text': 'Search this site...',
+  'navigation_with_keys': False
+}
