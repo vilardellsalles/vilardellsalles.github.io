@@ -20,66 +20,66 @@ msgstr ""
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/archives.html:3
 msgid "Archives"
-msgstr ""
+msgstr "Arxiu"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/authors.html:2
 msgid "Authors"
-msgstr ""
+msgstr "Autors"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/categories.html:3
 msgid "Categories"
-msgstr ""
+msgstr "Categories"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/collection.html:47
 msgid "Read more ..."
-msgstr ""
+msgstr "Llegir-ne més ..."
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/languages.html:3
 msgid "Languages"
-msgstr ""
+msgstr "Idiomes"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/locations.html:3
 msgid "Locations"
-msgstr ""
+msgstr "Ubicacions"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postcard2.html:5
 msgid "Update"
-msgstr ""
+msgstr "Actualització"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postcard2.html:12
 msgid "Author"
-msgstr ""
+msgstr "Autor"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postcard2.html:24
 msgid "Location"
-msgstr ""
+msgstr "Ubicació"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postcard2.html:35
 msgid "Language"
-msgstr ""
+msgstr "Idiomes"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postcard2.html:46
 msgid "Category"
-msgstr ""
+msgstr "Categoria"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postcard2.html:57
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/tagcloud.html:2
 msgid "Tags"
-msgstr ""
+msgstr "Etiquetes"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postcard2.html:60
 msgid "Tag"
-msgstr ""
+msgstr "Etiqueta"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postnavy.html:5
 msgid "Previous"
-msgstr ""
+msgstr "Anterior"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postnavy.html:15
 msgid "Next"
-msgstr ""
+msgstr "Següent"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/recentposts.html:3
 msgid "Recent Posts"
-msgstr ""
+msgstr "Entrades Recents"
 

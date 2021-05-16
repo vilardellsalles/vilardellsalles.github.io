@@ -20,5 +20,5 @@ msgstr ""
 
 #: ../../blog.rst:2
 msgid "Blog"
-msgstr ""
+msgstr "Bloc"
 
