@@ -19,13 +19,14 @@ like this at some point:
 
 .. :align:left
 
-This is a picture of one of the largest telescopes in the world, the
-`GTC <http://www.gtc.iac.es/GTChome.php>`_. These large telescopes are, in fact,
-a large lab with some of the most advanced technologies in the world. Not only
+This is a picture of one of the largest telescopes in the world, the `GTC
+<http://www.gtc.iac.es/GTChome.php>`_. These large telescopes are, in fact, a
+large lab with some of the most advanced technologies in the world. Not only
 the telescope is a unique piece, but each telescope has several `last
-generation instruments <http://www.gtcdigital.net/todogtc.php?op1=3&lang=en>`_,
-built only for one of these telescopes. Hundreds of engineers and scientists
-work in their construction.
+generation instruments
+<http://www.gtc.iac.es/instruments/instrumentation.php>`_, built only for one
+of these telescopes. Hundreds of engineers and scientists work in their
+construction.
 
 Once these giants start operations, an excellent team, capable to obtain the
 maximum return of them, is required. The final goal is to provide the maximum
