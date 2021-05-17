@@ -116,6 +116,8 @@ the support needed by the observers of the largest telescopes in the world to
 obtain the maximum return of their observing time. This is the reason because
 they are called support astronomers.
 
+**Update on May 16, 2021:** Link to the GTC instrumentation page modified.
+
 **Update on May 16, 2021:** Hubble Space Telescope no longer accepts proposals.
 Link to the Hubble Space Telescope submission of proposals was removed. 
 
