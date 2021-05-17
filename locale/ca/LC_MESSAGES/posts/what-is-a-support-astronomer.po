@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Support Astronomer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-16 05:45+0200\n"
+"POT-Creation-Date: 2021-05-17 07:19+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -43,14 +43,15 @@ msgstr ""
 "hagueu vist fotografies com aquesta en algun moment:"
 
 #: ../../posts/what-is-a-support-astronomer.rst:22
+#, fuzzy
 msgid ""
 "This is a picture of one of the largest telescopes in the world, the `GTC"
 " <http://www.gtc.iac.es/GTChome.php>`_. These large telescopes are, in "
 "fact, a large lab with some of the most advanced technologies in the "
 "world. Not only the telescope is a unique piece, but each telescope has "
 "several `last generation instruments "
-"<http://www.gtcdigital.net/todogtc.php?op1=3&lang=en>`_, built only for "
-"one of these telescopes. Hundreds of engineers and scientists work in "
+"<http://www.gtc.iac.es/instruments/instrumentation.php>`_, built only for"
+" one of these telescopes. Hundreds of engineers and scientists work in "
 "their construction."
 msgstr ""
 "En aquesta imatge s'hi pot veure un dels telescopis més grans del món, el"
@@ -58,11 +59,11 @@ msgstr ""
 "són, en realitat, un gran laboratori on hi ha algunes de les tecnologies "
 "més avançades del món. No només pel telescopi en si, que ja és una peça "
 "única, sinó perquè cada telescopi té uns quants `instruments d'última "
-"generació <http://www.gtcdigital.net/todogtc.php?op1=3&lang=en>`_, "
+"generació <http://www.gtc.iac.es/instruments/instrumentation.php>`_, "
 "construïts expressament per a aquests telescopis. En la seva construcció "
-"hi participe"
+"hi participen centenars d'enginyers i científics de tot el món."
 
-#: ../../posts/what-is-a-support-astronomer.rst:30
+#: ../../posts/what-is-a-support-astronomer.rst:31
 msgid ""
 "Once these giants start operations, an excellent team, capable to obtain "
 "the maximum return of them, is required. The final goal is to provide the"
@@ -80,11 +81,11 @@ msgstr ""
 "electrònica, programari, criogènia, etc.) i, òbviament, per astrònoms. "
 "Alguns d'aquests astrònoms són **astrònoms de suport**."
 
-#: ../../posts/what-is-a-support-astronomer.rst:39
+#: ../../posts/what-is-a-support-astronomer.rst:40
 msgid "What exactly does a support astronomer?"
 msgstr "Què fa exactament un astrònom de suport?"
 
-#: ../../posts/what-is-a-support-astronomer.rst:41
+#: ../../posts/what-is-a-support-astronomer.rst:42
 msgid ""
 "Astronomers working in a large telescope have several functions, but few "
 "times have the opportunity to perform observations for their own "
@@ -105,7 +106,7 @@ msgstr ""
 " grans telescopis, inclòs el telescopi més famós del món, el telescopi "
 "espacial Hubble."
 
-#: ../../posts/what-is-a-support-astronomer.rst:49
+#: ../../posts/what-is-a-support-astronomer.rst:50
 msgid ""
 "The process begins by looking for the telescope that best fits their "
 "needs. All the telescopes in general, but specially the large ones, have "
@@ -134,7 +135,7 @@ msgstr ""
 "necessaris per tal de saber què pot necessitar saber un altre astrònom** "
 "que busqui un telescopi per observar."
 
-#: ../../posts/what-is-a-support-astronomer.rst:61
+#: ../../posts/what-is-a-support-astronomer.rst:62
 msgid ""
 "The process continues by applying for time in a particular observatory. "
 "There is usually a committee in charge of evaluating all the observation "
@@ -162,7 +163,7 @@ msgstr ""
 "anual d'ESO "
 "<https://www.eso.org/public/products/annualreports/ar_2013/>`_)."
 
-#: ../../posts/what-is-a-support-astronomer.rst:72
+#: ../../posts/what-is-a-support-astronomer.rst:73
 msgid ""
 "Once an observing proposal is granted, the detail of the observations has"
 " to be defined. It is rather common, at this stage, that astronomers have"
@@ -188,7 +189,7 @@ msgstr ""
 "s'encarreguen de respondre qualsevol pregunta que els observadors puguin "
 "tenir."
 
-#: ../../posts/what-is-a-support-astronomer.rst:82
+#: ../../posts/what-is-a-support-astronomer.rst:83
 msgid ""
 "Two things can happen in the next step: either the observer goes "
 "physically to the telescope, or observations are done in service mode. In"
@@ -202,7 +203,7 @@ msgstr ""
 "sala de control (des d'on es fa anar el telescopi), tingui aquest "
 "aspecte:"
 
-#: ../../posts/what-is-a-support-astronomer.rst:93
+#: ../../posts/what-is-a-support-astronomer.rst:94
 msgid ""
 "At the largest observatories, there is a person (the telescope operator) "
 "in charge of operating the telescope, but in other cases the support "
@@ -222,7 +223,7 @@ msgstr ""
 "suport explica tot allò que l'observador pugui necessitar saber al llarg "
 "de la nit."
 
-#: ../../posts/what-is-a-support-astronomer.rst:101
+#: ../../posts/what-is-a-support-astronomer.rst:102
 msgid ""
 "In the later case, when observations are done in service mode, the "
 "support astronomer is (with, sometimes, the help of the telescope "
@@ -240,11 +241,11 @@ msgstr ""
 "els astrònoms de suport estan darrera de moltes de les dades obtingudes "
 "en els telescopis més grans del món."
 
-#: ../../posts/what-is-a-support-astronomer.rst:111
+#: ../../posts/what-is-a-support-astronomer.rst:112
 msgid "Summarizing"
 msgstr "Resumint"
 
-#: ../../posts/what-is-a-support-astronomer.rst:113
+#: ../../posts/what-is-a-support-astronomer.rst:114
 msgid ""
 "As explained above, support astronomers have the responsibility to "
 "provide all the support needed by the observers of the largest telescopes"
@@ -257,33 +258,34 @@ msgstr ""
 "partit del seu temps d'observació. És per això que reben el nom "
 "d'astrònoms de suport."
 
-#: ../../posts/what-is-a-support-astronomer.rst:118
+#: ../../posts/what-is-a-support-astronomer.rst:119
 msgid ""
 "**Update on May 16, 2021:** Hubble Space Telescope no longer accepts "
 "proposals. Link to the Hubble Space Telescope submission of proposals was"
 " removed."
 msgstr ""
-"**Actualització al 16 de maig de 2021:** El telescopi espacial Hubble ja no "
-"accepta propostes. S'ha eliminat l'enllaç a l'enviament de propostes del "
-"telescopi espacial Hubble."
+"**Actualització del 16 de maig de 2021:** El telescopi espacial Hubble ja"
+" no accepta propostes. S'ha eliminat l'enllaç a l'enviament de propostes "
+"del telescopi espacial Hubble."
 
-#: ../../posts/what-is-a-support-astronomer.rst:121
+#: ../../posts/what-is-a-support-astronomer.rst:122
 msgid ""
 "**Update on May 16, 2021:** The AAT no longer provides support "
 "astronomers for the majority of programs awarded time on the AAT. "
 "Sentence and reference to AAT removed."
 msgstr ""
-"**Actualització al 16 de maig de 2021:** El AAT ja no proporciona astrònoms "
-"de suport per a la majoria de programes amb temps concedit al AAT. La frase "
-"i l'enllaç fent referència al AAT s'ha eliminat"
+"**Actualització del 16 de maig de 2021:** El AAT ja no proporciona "
+"astrònoms de suport per a la majoria de programes amb temps concedit al "
+"AAT. La frase i l'enllaç fent referència al AAT s'ha eliminat"
 
-#: ../../posts/what-is-a-support-astronomer.rst:125
+#: ../../posts/what-is-a-support-astronomer.rst:126
 msgid ""
 "**Update on May 16, 2021:** Section explaining the reason for this web "
 "page was removed as it provided no information and most of the contents "
 "can be directly obtained from the home page."
 msgstr ""
-"**Actualització al 16 de maig de 2021:** La secció explicant el motiu "
-"d'aquesta pàgina web s'ha eliminat, ja que no proporcionava informació i la "
-"majoria dels continguts es poden obtenir directament de la pàgina d'inici."
+"**Actualització del 16 de maig de 2021:** La secció explicant el motiu "
+"d'aquesta pàgina web s'ha eliminat, ja que no proporcionava informació i "
+"la majoria dels continguts es poden obtenir directament de la pàgina "
+"d'inici."
 
