@@ -61,7 +61,7 @@ release = ''
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set 'language' from the command line for these cases.
-language = 'en, ca'
+language = 'ca' if tags.has('ca') else 'en'
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 
@@ -116,6 +116,13 @@ html_theme = 'pydata_sphinx_theme'
 # html_theme_options = {
 #    'github_button': False,
 # }
+
+other_language = {'name': 'Català',
+                  'url': 'https://vilardellsalles.github.io/ca/index.html'}
+if tags.has('ca'):
+    other_language = {'name': 'English',
+                      'url': 'https://vilardellsalles.github.io/index.html'}
+
 html_theme_options = {
   'github_url': 'https://github.com/vilardellsalles',
 #  'gitlab_url': 'https://gitlab.com/<your-org>/<your-repo>',
@@ -124,12 +131,7 @@ html_theme_options = {
   'search_bar_text': 'Search this site...',
   'navigation_with_keys': False,
   'show_prev_next': False,
-  'external_links': [
-    {'name': 'English',
-     'url': 'https://vilardellsalles.github.io/index.html'},
-    {'name': 'Català',
-     'url': 'https://vilardellsalles.github.io/ca/index.html'}
-    ]
+  'external_links': [other_language]
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -164,6 +166,8 @@ html_static_path = ['_static']
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
 html_last_updated_fmt = '%b %d, %Y'
+if tags.has('ca'):
+    html_last_updated_fmt = '%d %b de %Y'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
