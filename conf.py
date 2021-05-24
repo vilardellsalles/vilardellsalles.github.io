@@ -64,6 +64,7 @@ release = ''
 language = 'ca' if tags.has('ca') else 'en'
 locale_dirs = ['locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
+gettext_additional_targets = ['literal-block', 'alt']
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
