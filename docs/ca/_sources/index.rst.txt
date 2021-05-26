@@ -10,6 +10,7 @@ Passion for astronomy, robotics and many other things.
 
 .. postlist:: 5
    :excerpts:
+   :date: %b %d, %Y
 
 
 .. `toctree` directive, below, contains list of non-post `.rst` files.
