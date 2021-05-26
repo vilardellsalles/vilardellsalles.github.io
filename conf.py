@@ -130,6 +130,7 @@ html_theme_options = {
   'navigation_with_keys': False,
   'show_prev_next': False,
   'external_links': [other_language],
+  'footer_items': ['copyright', 'last-updated', 'sphinx-version'],
   'icon_links': [
         {
             'name': 'GitHub',
@@ -288,6 +289,7 @@ blog_languages = {'en': ('English', None), 'ca': ('Catal\u00E0', None)}
 
 # Format date for a post.
 # post_date_format = '%b %d, %Y'
+post_date_format = html_last_updated_fmt
 
 # Number of paragraphs (default is ``1``) that will be displayed as an excerpt
 # from the post. Setting this ``0`` will result in displaying no post excerpt
