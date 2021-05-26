@@ -125,14 +125,33 @@ if tags.has('ca'):
                       'url': 'https://vilardellsalles.github.io/index.html'}
 
 html_theme_options = {
-  'github_url': 'https://github.com/vilardellsalles',
-#  'gitlab_url': 'https://gitlab.com/<your-org>/<your-repo>',
-  'twitter_url': 'https://twitter.com/vilardellsalles',
-  'search_bar_position': 'navbar',
-  'search_bar_text': 'Search this site...',
+  'navbar_end': ['search-field.html', 'navbar-icon-links.html'],
+  'search_bar_text': 'Cerca...' if tags.has('ca') else 'Search...',
   'navigation_with_keys': False,
   'show_prev_next': False,
-  'external_links': [other_language]
+  'external_links': [other_language],
+  'icon_links': [
+        {
+            'name': 'GitHub',
+            'url': 'https://github.com/vilardellsalles',
+            'icon': 'fab fa-github',
+        },
+        {
+            'name': 'Twitter',
+            'url': 'https://twitter.com/vilardellsalles',
+            'icon': 'fab fa-twitter',
+        },
+        {
+            'name': 'Linkedin',
+            'url': 'https://es.linkedin.com/in/francesc-vilardell-sall%C3%A9s-5741869b',
+            'icon': 'fab fa-linkedin',
+        },
+        {
+            'name': 'ORCID',
+            'url': 'http://orcid.org/0000-0003-0441-1504',
+            'icon': 'fab fa-orcid',
+        },
+    ]
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -307,14 +326,14 @@ blog_post_pattern = 'posts/*.rst'
 # a link to a archive pages generated for each tag, category, and year.
 # In addition, there are authors.html, languages.html, and locations.html
 # sidebars that link to author and location archive pages.
-# html_sidebars = {
-#     '**': [ 
+html_sidebars = {
+    '**': ['sidebar-nav-bs.html'
 #             'postcard.html', 'navigation.html',
 #             'recentposts.html', 'tagcloud.html',
 #             'categories.html',  'archives.html',
 #             'searchbox.html',
-#             ],
-#     }
+            ],
+}
 
 # -- Blog Feed Options --------------------------------------------------------
 
