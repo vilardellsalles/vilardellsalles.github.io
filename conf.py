@@ -6,9 +6,9 @@
 # default; values that are commented out
 # serve to show the default.
 
-# import os
+import os.path
 # import sys
-# import ablog
+import ablog
 # import alabaster
 from datetime import date
 
@@ -62,7 +62,8 @@ release = ''
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set 'language' from the command line for these cases.
 language = 'ca' if tags.has('ca') else 'en'
-locale_dirs = ['locale/']   # path is example but recommended.
+ablog_locales = os.path.join(os.path.dirname(ablog.__file__), 'locales', '')
+locale_dirs = ['locale/', ablog_locales]   # path is example but recommended.
 gettext_compact = False     # optional.
 gettext_additional_targets = ['literal-block', 'alt']
 

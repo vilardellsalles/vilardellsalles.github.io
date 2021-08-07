@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Support Astronomer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-24 09:39+0200\n"
+"POT-Creation-Date: 2021-07-24 18:54+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -46,7 +46,6 @@ msgid "GTC image taken on November 2, 2009"
 msgstr "Imatge del GTC obtinguda el 2 de novembre de 2009"
 
 #: ../../posts/what-is-a-support-astronomer.rst:22
-#, fuzzy
 msgid ""
 "This is a picture of one of the largest telescopes in the world, the `GTC"
 " <http://www.gtc.iac.es/GTChome.php>`_. These large telescopes are, in "
@@ -299,3 +298,4 @@ msgstr ""
 "d'aquesta pàgina web s'ha eliminat, ja que no proporcionava informació i "
 "la majoria dels continguts es poden obtenir directament de la pàgina "
 "d'inici."
+
