@@ -11,6 +11,7 @@ import os.path
 import ablog
 # import alabaster
 from datetime import date
+import locale
 
 # -- Sphinx Options -----------------------------------------------------------
 
@@ -42,8 +43,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
+language = 'ca' if tags.has('ca') else 'en'
 year = date.today().year
-project = 'Support Astronomer'
+project = 'Astrònom de Suport' if language == 'ca' else 'Support Astronomer'
 author = 'Francesc Vilardell Sall\u00E9s'
 copyright = f'{year}, {author}'
 
@@ -61,7 +63,11 @@ release = ''
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set 'language' from the command line for these cases.
-language = 'ca' if tags.has('ca') else 'en'
+if language == 'ca':
+    locale.setlocale(locale.LC_ALL, 'ca_ES')
+else:
+    locale.setlocale(locale.LC_ALL, 'en_US')
+
 ablog_locales = os.path.join(os.path.dirname(ablog.__file__), 'locales', '')
 locale_dirs = ['locale/', ablog_locales]   # path is example but recommended.
 gettext_compact = False     # optional.
@@ -76,6 +82,10 @@ gettext_additional_targets = ['literal-block', 'alt']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+if language == 'ca':
+    exclude_patterns += ['posts/*']
+else:
+    exclude_patterns += ['publicacions/*']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -121,13 +131,13 @@ html_theme = 'pydata_sphinx_theme'
 
 other_language = {'name': 'Català',
                   'url': 'https://vilardellsalles.github.io/ca/index.html'}
-if tags.has('ca'):
+if language == 'ca':
     other_language = {'name': 'English',
                       'url': 'https://vilardellsalles.github.io/index.html'}
 
 html_theme_options = {
   'navbar_end': ['search-field.html', 'navbar-icon-links.html'],
-  'search_bar_text': 'Cerca...' if tags.has('ca') else 'Search...',
+  'search_bar_text': 'Cerca...' if language == 'ca' else 'Search...',
   'navigation_with_keys': False,
   'show_prev_next': False,
   'external_links': [other_language],
@@ -188,8 +198,8 @@ html_static_path = ['_static']
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
 html_last_updated_fmt = '%b %d, %Y'
-if tags.has('ca'):
-    html_last_updated_fmt = '%d %b de %Y'
+if language == 'ca':
+    html_last_updated_fmt = '%d %B de %Y'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
@@ -290,7 +300,9 @@ blog_languages = {'en': ('English', None), 'ca': ('Catal\u00E0', None)}
 
 # Format date for a post.
 # post_date_format = '%b %d, %Y'
-post_date_format = html_last_updated_fmt
+post_date_format = '%b %d, %Y'
+if language == 'ca':
+    post_date_format = '%d de %B de %Y'
 
 # Number of paragraphs (default is ``1``) that will be displayed as an excerpt
 # from the post. Setting this ``0`` will result in displaying no post excerpt
@@ -319,7 +331,10 @@ post_date_format = html_last_updated_fmt
 # be set on a per-post basis as well if this is false. Default is ``True``.
 # post_auto_orphan = True
 
-blog_post_pattern = 'posts/*.rst'
+if language == 'ca':
+    blog_post_pattern = os.path.join('publicacions', '*.rst')
+else:
+    blog_post_pattern = os.path.join('posts', '*.rst')
 
 # -- ABlog Sidebars -------------------------------------------------------
 
