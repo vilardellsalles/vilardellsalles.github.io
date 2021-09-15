@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Support Astronomer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-04-02 17:57+0200\n"
+"POT-Creation-Date: 2021-09-15 22:10+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -82,4 +82,36 @@ msgstr "Següent"
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/recentposts.html:3
 msgid "Recent Posts"
 msgstr "Entrades Recents"
+
+#: ../../_templates/search.html:11 ../../_templates/search.html:22
+msgid "Search"
+msgstr "Cerca"
+
+#: ../../_templates/search.html:27
+msgid ""
+"Please activate JavaScript to enable the search\n"
+"    functionality."
+msgstr "Si us plau, activa JavaScript per habilitar\n la funcionalitat de cerca."
+
+#: ../../_templates/search.html:34
+msgid ""
+"Searching for multiple words only shows matches that contain\n"
+"    all words."
+msgstr "Al cercar múltiples paraules, només es mostren les coincidències\n"
+"    que contenen totes les paraules."
+
+#: ../../_templates/search.html:41
+msgid "search"
+msgstr "cerca"
+
+#: ../../_templates/search.html:47
+msgid "Search Results"
+msgstr "Resultats de la cerca"
+
+#: ../../_templates/search.html:49
+msgid ""
+"Your search did not match any documents. Please make sure that all words "
+"are spelled correctly and that you've selected enough categories."
+msgstr "La teva cerca no ha trobat cap document. Si us plau, assegura't que "
+"totes les paraules estan ben escrites i que has seleccionat prou categories."
 

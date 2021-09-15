@@ -303,6 +303,7 @@ blog_languages = {'en': ('English', None), 'ca': ('Catal\u00E0', None)}
 post_date_format = '%b %d, %Y'
 if language == 'ca':
     post_date_format = '%d de %B de %Y'
+post_date_format_short = post_date_format
 
 # Number of paragraphs (default is ``1``) that will be displayed as an excerpt
 # from the post. Setting this ``0`` will result in displaying no post excerpt
