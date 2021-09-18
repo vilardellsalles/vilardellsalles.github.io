@@ -27,6 +27,10 @@ cada telescopi té uns quants `instruments d'última generació
 expressament per a aquests telescopis. En la seva construcció hi participen
 centenars d'enginyers i científics de tot el món.
 
+.. update:: 16 de maig de 2021
+
+   S'ha actualitzat l'enllaç a la pàgina d'instrumentació del GTC.
+
 Un cop aquests gegants entren en funcionament, cal un excel·lent equip de
 treball capaç de treure'n el màxim partit. L'objectiu final és que astrònoms de
 tot el món puguin obtenir la màxima informació possible dels objectes més
@@ -46,7 +50,12 @@ destina només als astrònoms que treballen al telescopi, sinó que es destina a
 tots els astrònoms de la comunitat científica. Quan un astrònom necessita dades
 per tal de desenvolupar les seves investigacions, segueix un procediment que
 s'ha anat adoptant en tots els grans telescopis, inclòs el telescopi més famós
-del món, el telescopi espacial Hubble.
+del món, el `telescopi espacial Hubble <https://www.stsci.edu/hst/proposing>`_.
+
+.. update:: 16 de maig de 2021
+
+   S'ha actualitzat l'enllaç a la pàgina d'enviament de propostes del telescopi
+   espacial Hubble.
 
 El procés comença buscant el telescopi més adequat a les necessitats de cada
 cas. Normalment tots els telescopis, i sobretot els grans, tenen pàgines web
@@ -68,7 +77,7 @@ científic. És el què s'anomena Comitè d'Assignació de Temps (CAT) i està f
 per astrònoms externs tant al telescopi com a la proposta d'observació. En els
 grans telescopis sol haver-hi moltíssimes sol·licituds i, per tant, aconseguir
 temps d'observació en un gran telescopi requereix un cas científicament molt
-rellevant. De fet, en els observatoris més grans, com en el cas d\\'`ESO
+rellevant. De fet, en els observatoris més grans, com en el cas d\'`ESO
 <https://www.eso.org/public/>`_, sol ser habitual que es concedeixin entre una
 de cada tres i una de cada cinc sol·licituds (`Informe anual d'ESO
 <https://www.eso.org/public/products/annualreports/ar_2013/>`_).
@@ -104,6 +113,13 @@ aquesta imatge (sala de control de l\\'`observatori de La Silla
 el màxim partit del temps al telescopi, l'astrònom de suport explica tot allò
 que l'observador pugui necessitar saber al llarg de la nit.
 
+.. update:: 16 de maig de 2021
+
+   El AAO (actualment `AAT
+   <https://aat.anu.edu.au/science/support-astronomers>`_) ja no proporciona
+   astrònoms de suport per a la majoria de programes amb temps concedit al AAT.
+   La frase i l'enllaç fent referència al AAO s'ha eliminat.
+
 En el segon cas, quan les observacions es fan en mode servei, és l'astrònom de
 suport (a vegades, amb l'ajuda d'un operador de telescopi), el que
 **s'encarrega de realitzar les observacions i d'enviar les dades obtingudes als
@@ -121,18 +137,8 @@ proporcionar tot el suport necessari per tal que els observadors dels
 telescopis més grans del món puguin treure el màxim partit del seu temps
 d'observació. És per això que reben el nom d'astrònoms de suport.
 
-**Actualització del 16 de maig de 2021:** S'ha modificat l'enllaç a la pàgina
-d'instrumentació del GTC.
+.. update:: 16 de maig de 2021
 
-**Actualització del 16 de maig de 2021:** El telescopi espacial Hubble ja no
-accepta propostes. S'ha eliminat l'enllaç a l'enviament de propostes del
-telescopi espacial Hubble.
-
-**Actualització del 16 de maig de 2021:** El AAT ja no proporciona astrònoms de
-suport per a la majoria de programes amb temps concedit al AAT. La frase i
-l'enllaç fent referència al AAT s'ha eliminat.
-
-**Actualització del 16 de maig de 2021:** La secció explicant el motiu 
-d'aquesta pàgina web s'ha eliminat, ja que no proporcionava informació i 
-la majoria dels continguts es poden obtenir directament de la pàgina 
-d'inici.
+   La secció explicant el motiu d'aquesta pàgina web s'ha eliminat, ja que no
+   proporcionava informació i la majoria dels continguts es poden obtenir
+   directament de la pàgina d'inici.

@@ -20,13 +20,11 @@ gettext:
 	sphinx-intl update -p _build/gettext -l ca 
 
 .PHONY: en Makefile
-en:
-	if [ -d "$(BUILDDIR)/html" ];then rm -r "$(BUILDDIR)/html"; fi
+en: clean
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) -D language='en' $(O)
 
 .PHONY: ca Makefile
-ca:
-	if [ -d "$(BUILDDIR)/html" ];then rm -r "$(BUILDDIR)/html"; fi
+ca: clean
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) -D language='ca' -t ca $(O)
 
 # Catch-all target: route all unknown targets to Sphinx using the new

@@ -27,6 +27,10 @@ generation instruments
 of these telescopes. Hundreds of engineers and scientists work in their
 construction.
 
+.. update:: May 16, 2021
+
+   Link to the GTC instrumentation page has been updated.
+
 Once these giants start operations, an excellent team, capable to obtain the
 maximum return of them, is required. The final goal is to provide the maximum
 amount of information about the faintest objects in the Universe to astronomers
@@ -44,7 +48,13 @@ main reason is that telescope time is granted not only to those astronomers
 that work at the telescope, but also to all the astronomers in the scientific
 community. When astronomers need some data to develop their investigations,
 they follow a procedure adopted by all the large telescopes, including the most
-famous telescope in the world, the Hubble Space Telescope.
+famous telescope in the world, the `Hubble Space Telescope
+<https://www.stsci.edu/hst/proposing>`_.
+
+.. update:: May 16, 2021
+
+   Link to the Hubble Space Telescope proposal submission page has been
+   updated.
 
 The process begins by looking for the telescope that best fits their needs. All
 the telescopes in general, but specially the large ones, have web pages
@@ -98,6 +108,12 @@ seen in the picture shown above (control room at `La Silla observatory
 maximum scientific return of the telescope time, the support astronomer
 explains all the required details that the observer may need along the night.
 
+.. update:: May 16, 2021
+
+   AAO (currently `AAT <https://aat.anu.edu.au/science/support-astronomers>`_)
+   is no longer providing support astronomers for the majority of programs with
+   awarded time on the AAT. Sentence and reference to AAO have been removed.
+
 In the later case, when observations are done in service mode, the support
 astronomer is (with, sometimes, the help of the telescope operator) the
 **responsible to perform the observations and to send the obtained data to the
@@ -115,15 +131,9 @@ the support needed by the observers of the largest telescopes in the world to
 obtain the maximum return of their observing time. This is the reason because
 they are called support astronomers.
 
-**Update on May 16, 2021:** Link to the GTC instrumentation page modified.
 
-**Update on May 16, 2021:** Hubble Space Telescope no longer accepts proposals.
-Link to the Hubble Space Telescope submission of proposals was removed. 
+.. update:: May 16, 2021
 
-**Update on May 16, 2021:** The AAT no longer provides support astronomers for
-the majority of programs awarded time on the AAT. Sentence and reference to AAT
-removed. 
-
-**Update on May 16, 2021:** Section explaining the reason for this web page was
-removed as it provided no information and most of the contents can be directly
-obtained from the home page. 
+   Section explaining the reason for this web page was removed as it provided
+   no information and most of the contents can be directly obtained from the
+   home page. 
