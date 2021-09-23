@@ -386,6 +386,7 @@ html_sidebars = {
 
 # Sphinx_ theme already links to `Font Awesome`_.  Default: ``False``
 # fontawesome_included = False
+fontawesome_included = True
 
 # Alternatively, you can provide the path to `Font Awesome`_ :file:`.css`
 # with the configuration option: fontawesome_css_file
