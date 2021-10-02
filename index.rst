@@ -3,10 +3,12 @@
    contain the root `toctree` directive.
 
 ==================
-Support Astronomer
+Learning by doing
 ==================
  
-Passion for astronomy, robotics and many other things.
+
+Last Posts
+----------
 
 .. postlist:: 5
    :excerpts:

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Support Astronomer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-17 21:20+0200\n"
+"POT-Creation-Date: 2021-10-04 06:58+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,31 +44,38 @@ msgid "Locations"
 msgstr "Ubicacions"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postcard2.html:5
+#: ../../_templates/postcard2.html:5
 msgid "Update"
 msgstr "Actualització"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postcard2.html:12
+#: ../../_templates/postcard2.html:12
 msgid "Author"
 msgstr "Autor"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postcard2.html:24
+#: ../../_templates/postcard2.html:24
 msgid "Location"
 msgstr "Ubicació"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postcard2.html:35
+#: ../../_templates/postcard2.html:35
 msgid "Language"
 msgstr "Idiomes"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postcard2.html:46
+#: ../../_templates/postcard2.html:46
 msgid "Category"
 msgstr "Categoria"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postcard2.html:57
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/tagcloud.html:2
+#: ../../_templates/postcard2.html:57
 msgid "Tags"
 msgstr "Etiquetes"
 
 #: ../../../../../../../../Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/ablog/templates/postcard2.html:60
+#: ../../_templates/postcard2.html:60
 msgid "Tag"
 msgstr "Etiqueta"
 
@@ -91,6 +98,10 @@ msgstr "publicacions"
 #: ../../_templates/collection.html:10
 msgid "Drafts"
 msgstr "Borradors"
+
+#: ../../_templates/navbar-logo.html:3
+msgid "Passion for astronomy, robotics and much more"
+msgstr "Passió per l'astronomia, la robòtica i molt més"
 
 #: ../../_templates/page-toc.html:5
 msgid "On this page"
