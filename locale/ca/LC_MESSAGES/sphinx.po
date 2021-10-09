@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Support Astronomer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-04 06:58+0200\n"
+"POT-Creation-Date: 2021-10-09 18:28+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -142,4 +142,12 @@ msgid ""
 msgstr ""
 "La teva cerca no ha trobat cap document. Si us plau, assegura't que totes"
 " les paraules estan ben escrites i que has seleccionat prou categories."
+
+#: ../../_templates/sphinx-version.html:2
+#, python-format
+msgid ""
+"Created using <a href=\"http://sphinx-doc.org/\">Sphinx</a> "
+"%(sphinx_version)s."
+msgstr "Creat fent servir <a href=\"http://sphinx-doc.org/\">Sphinx</a> "
+"%(sphinx_version)s."
 
