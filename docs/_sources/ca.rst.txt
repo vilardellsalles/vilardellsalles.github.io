@@ -1,5 +1,0 @@
-=========
-Català
-=========
-
-:doc:`ca/index.html`
