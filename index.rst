@@ -3,9 +3,22 @@
    contain the root `toctree` directive.
 
 ==================
-Learning by doing
+Support Astronomer
 ==================
- 
+
+Learning by doing
+-----------------
+
+It is well known that the best way to master a subject is by using it in
+practice. The main purpose of this personal page is to have some fun
+programming and, at the same time, delve into some topics that I would normally
+not be able to use in my day to day. Obviously, a website also needs to have
+some content. So, it is also possible that I explain some things that I
+couldn't find elsewhere, or that I consider to be insufficiently detailed. If
+you like what I explain, or you simply want to know more about me, you can
+contact me using the links to the social media at the top of this page. I look
+forward to hearing from you.
+
 
 Last Posts
 ----------
