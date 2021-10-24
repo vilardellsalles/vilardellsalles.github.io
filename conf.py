@@ -201,7 +201,7 @@ html_css_files = [
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-html_last_updated_fmt = '%b %d, %Y'
+html_last_updated_fmt = '%B %d, %Y'
 if language == 'ca':
     html_last_updated_fmt = '%d %B de %Y'
 
@@ -304,9 +304,9 @@ blog_languages = {'en': ('English', None), 'ca': ('Catal\u00E0', None)}
 
 # Format date for a post.
 # post_date_format = '%b %d, %Y'
-post_date_format = '%b %d, %Y'
+post_date_format = '%B %d, %Y'
 if language == 'ca':
-    post_date_format = '%d de %B de %Y'
+    post_date_format = '%d %B de %Y'
 post_date_format_short = post_date_format
 
 # Number of paragraphs (default is ``1``) that will be displayed as an excerpt
