@@ -1,0 +1,376 @@
+
+<!DOCTYPE html>
+
+<html lang="ca">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alguns motius per fer una web amb Python &#8212; Astrònom de Suport</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet" />
+  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+    <link rel="index" title="Índex" href="../genindex.html" />
+    <link rel="search" title="Cerca" href="../search.html" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+      
+<style type="text/css">
+  ul.ablog-archive {
+    list-style: none;
+    overflow: auto;
+    margin-left: 0px;
+  }
+  ul.ablog-archive li {
+    float: left;
+    margin-right: 5px;
+    font-size: 80%;
+  }
+  ul.postlist a {
+    font-style: italic;
+  }
+  ul.postlist-style-disc {
+    list-style-type: disc;
+  }
+  ul.postlist-style-none {
+    list-style-type: none;
+  }
+  ul.postlist-style-circle {
+    list-style-type: circle;
+  }
+</style>
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    <a class="navbar-brand" style="line-height: 1.1; "href="../index.html">
+<p class="title mb-0 pb-0">Astrònom de Suport</p>
+<small>Passió per l'astronomia, la robòtica i molt més</small>
+</a>
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../blog.html">
+  Bloc
+ </a>
+</li>
+
+    
+    <li class="nav-item">
+        <a class="nav-link nav-external" href="https://vilardellsalles.github.io/index.html">English<i class="fas fa-external-link-alt"></i></a>
+    </li>
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Cerca..." aria-label="Cerca..." autocomplete="off" >
+</form>
+      </div>
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/vilardellsalles" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/vilardellsalles" rel="noopener" target="_blank" title="Twitter">
+            <span><i class="fab fa-twitter"></i></span>
+            <label class="sr-only">Twitter</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://es.linkedin.com/in/francesc-vilardell-sall%C3%A9s-5741869b" rel="noopener" target="_blank" title="Linkedin">
+            <span><i class="fab fa-linkedin"></i></span>
+            <label class="sr-only">Linkedin</label>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://orcid.org/0000-0003-0441-1504" rel="noopener" target="_blank" title="ORCID">
+            <span><i class="fab fa-orcid"></i></span>
+            <label class="sr-only">ORCID</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> En aquesta pàgina
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#resumint">
+   Resumint
+  </a>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                 <div class="section" id="alguns-motius-per-fer-una-web-amb-python">
+<h1>Alguns motius per fer una web amb Python<a class="headerlink" href="#alguns-motius-per-fer-una-web-amb-python" title="Link permanent a aquest títol">¶</a></h1>
+<p>Si pregunteu a un astrònom com es fa una pàgina web, la majoria de respostes
+farien referència a HTML o PHP. Molt pocs us mencionarien Python com a
+llenguatge per fer una pàgina web. De tota manera, la pàgina que esteu llegint
+(i moltes altres) està feta amb Python. En aquesta nova entrada, us explico
+alguns dels avantatges de fer pàgines web amb Python.</p>
+<p>En els darrers anys, <a class="reference external" href="https://www.python.org/">Python</a>  s’ha convertit en un
+dels llenguatges de programació més utilitzats en el món científic i acadèmic.
+Tot i que els motius són molt diversos, Python té quatre ingredients que són
+essencials:</p>
+<ul class="simple">
+<li><p>És un llenguatge que es pot aprendre molt ràpidament.</p></li>
+<li><p>Es troba instal·lat per defecte en molts sistemes operatius, o es pot instal·lar molt fàcilment en els altres.</p></li>
+<li><p>Al ser un llenguatge interpretat, <a class="reference external" href="https://towardsdatascience.com/how-does-python-work-6f21fd197888">evita haver de compilar el codi</a>.</p></li>
+<li><p>Té una gran quantitat de llibreries que vénen instal·lades per defecte.</p></li>
+</ul>
+<div class="note update admonition">
+<p class="admonition-title">Actualitzat el 23 d’octubre de 2021</p>
+<p>He afegit un enllaç per explicar millor què vull dir amb llenguatge no
+compilat.</p>
+</div>
+<p>Cal tenir present que un científic només farà servir aquelles eines que li
+permetin resoldre un càlcul complex de la manera més ràpida possible. Això
+implica que si un codi triga una mica més a executar-se, però es pot aprendre
+en una tarda, aquest serà l’escollit en la majoria de casos.</p>
+<p>Els motius expressats anteriorment, han provocat que la comunitat científica
+hagi començat a utilitzar i desenvolupar una quantitat impressionant de
+programes i llibreries en Python, entre les quals s’hi troben paquets tant
+coneguts com <a class="reference external" href="http://www.scipy.org/">Numpy, Scipy, Matplotlib, IPython, Sympy i Pandas</a>, entre molts altres. La comunitat astronòmica no ha
+estat una excepció, desenvolupant i fent servir programes i llibreries com
+<a class="reference external" href="https://www.astropy.org/">Astropy</a> i <a class="reference external" href="https://sunpy.org/">Sunpy</a>.</p>
+<div class="note update admonition">
+<p class="admonition-title">Actualitzat el 23 d’octubre de 2021</p>
+<p>PyRAF ja no està mantingut. S’ha inclòs Sunpy al seu lloc.</p>
+</div>
+<p>Totes aquestes aplicacions es fan servir, sobretot, de manera local. És a dir,
+quan ens fa falta una llibreria, la descarreguem al nostre ordinador i
+l’executem. Tota la vitalitat que la comunitat científica ha demostrat a l’hora
+de desenvolupar noves aplicacions en Python, s’esvaeix a l’hora de desenvolupar
+aplicacions web. Hi ha moltes causes per explicar aquest fenomen, però hi ha
+tres creences molt esteses que jo destacaria:</p>
+<ul class="simple">
+<li><p>Una aplicació web no aporta cap gran avantatge a l’hora de fer els càlculs que un científic necessita.</p></li>
+<li><p>Cal aprendre nous llenguatge de programació: HTML, CSS, JavaScript, etc.</p></li>
+<li><p>Cap d’aquests llenguatges té les llibreries que els científics necessiten per fer les seves aplicacions.</p></li>
+</ul>
+<p>El primer dels tres punts es pot rebatre fàcilment. La immensa majoria dels
+astrònoms fan servir tecnologies com l”<a class="reference external" href="https://www.ivoa.net/">Observatori Virtual</a>, l”<a class="reference external" href="https://ui.adsabs.harvard.edu/">ADS</a> o el <a class="reference external" href="http://cds.u-strasbg.fr/">CDS</a>. Totes aquestes tecnologies serveixen, bàsicament,
+per compartir informació entre els astrònoms. De fet, l’Observatori Virtual és
+molt més que un lloc web: és una sèrie de protocols acordats per la comunitat
+astronòmica per tal de compartir informació a través d’Internet. És més, la
+majoria d’observatoris professionals comparteixen les dades obtingudes a través
+de l’Observatori Virtual.</p>
+<p>Els altres dos punts tampoc són del tot certs si, a la llista de llenguatges,
+hi afegim Python. De fet, Python és l’únic llenguatge necessari si fem servir
+aplicacions com el <a class="reference external" href="https://jupyter.org/">IPython Notebook (actualment conegut com Jupyter)</a>. Des que es va llançar la versió de Ipython Notebook
+2.0, a l’abril del 2014, aquest representa una excel·lent manera de fer servir
+Python des del nostre navegador, sabent únicament Python. A més, al fer servir
+Python, tenim accés a totes les llibreries de Python, de la mateixa manera que
+si estiguessim treballant de manera local.</p>
+<div class="note update admonition">
+<p class="admonition-title">Actualitzat el 23 d’octubre de 2021</p>
+<p>El Ipython Notebook es va <a class="reference external" href="https://blog.jupyter.org/the-big-split-9d7b88a031a7">separar de Ipython durant el 2014-2015</a> per passar-se a
+anomenar Jupyter. L’enllaç s’ha actualitzat al lloc web de Jupyter.</p>
+</div>
+<p>En cas que no vulguem fer servir el IPython Notebook, sol ser força habitual
+que els científics tinguin un cert coneixement de HTML i de CSS, probablement
+perquè també és relativament senzill d’aprendre. A més, al començament de l’era
+d’Internet, només calia saber HTML i CSS per fer una pàgina web. De fet, encara
+avui dia es pot fer una pàgina web sabent només HTML i CSS, però hi ha una cosa
+bàsica que no podrem fer amb aquests dos llenguatges: carregar contingut
+dinàmic. El contingut dinàmic conté tot aquells elements que poden variar en
+funció de la persona o del moment en el que es carrega la pàgina.</p>
+<p>Per carregar contingut dinàmic, es solen fer servir dos tipus de programes: els
+que s’executen al servidor que conté la pàgina web i els que s’executen en el
+client, des d’on estem carregant la pàgina web. En el costat del servidor hi
+podem executar pràcticament qualsevol llenguatge, però no tots els llenguatges
+s’integren perfectament dins d’un document HTML. De fet, és precisament per
+aquest motiu que <a class="reference external" href="https://www.php.net/">PHP</a> s’ha estès com un dels
+principals llenguatges per fer pàgines web. Desgraciadament, el nombre de
+llibreries astronòmiques (o científiques) en PHP és pràcticament inexistent,
+amb el què cal acabar recorrent a un altre llenguatge de programació. És
+precisament en aquest punt on Python marca la diferència amb altres
+llenguatges, ja que es pot integrar perfectament dins un document HTML sense
+necessitat de cap altre llenguatge de programació.</p>
+<p>Per altra banda, tots els llenguatges que s’executin en el costat del client
+han de ser executats pel nostre navegador. Tot i que es poden instal·lar
+diverses extensions per entendre altres llenguatges, l’únic codi que els
+principals navegadors poden entendre per defecte, a part de HTML i de CSS, és
+JavaScript. Una vegada més, el nombre de llibreries astronòmiques en JavaScript
+encara és molt reduït, tot i que s’estant començant a desenvolupar algunes
+<a class="reference external" href="http://aladin.u-strasbg.fr/AladinLite/doc/">llibreries força interessants</a>.</p>
+<div class="note update admonition">
+<p class="admonition-title">Actualitzat el 23 d’octubre de 2021</p>
+<p>L’enllaç a la documentació d’Aladin Lite s’ha actualitzat.</p>
+</div>
+<div class="section" id="resumint">
+<h2>Resumint<a class="headerlink" href="#resumint" title="Link permanent a aquest títol">¶</a></h2>
+<p>Alguns dels principals motius per fer pàgines web amb Python són:</p>
+<ol class="arabic simple">
+<li><p>És un llenguatge que es pot aprendre molt ràpidament.</p></li>
+<li><p>Es troba instal·lat per defecte en molts sistemes operatius, o es pot instal·lar molt fàcilment en els altres.</p></li>
+<li><p>Al ser un llenguatge interpretat, evita haver de compilar el codi.</p></li>
+<li><p>Té una gran quantitat de llibreries que vénen instal·lades per defecte.</p></li>
+<li><p>Hi ha una gran comunitat desenvolupant noves llibreries científiques, incloent les astronòmiques.</p></li>
+<li><p>S’integra perfectament dins un document HTML, permetent carregar contingut dinàmic en una pàgina web.</p></li>
+</ol>
+<p>Aquesta pàgina que acabeu de llegir és un bon exemple de com, sabent només
+HTML, CSS i Python es pot fer una pàgina web.</p>
+<div class="note update admonition">
+<p class="admonition-title">Actualitzat el 23 d’octubre de 2021</p>
+<p>La publicació sobre com crear un lloc web amb Python estava molt antiquada i
+s’ha eliminat. La propera publicació ja no explicarà això.</p>
+</div>
+</div>
+</div>
+
+<div class="section">
+     
+<div class="section">
+  <span style="float: left">
+     
+    <a href="que-es-un-astronom-de-suport.html">
+      <i class="fa fa-arrow-circle-left"></i> Què és un astrònom de suport?
+    </a>
+    
+  </span>
+  <span>&nbsp;</span>
+  <span style="float: right">
+    
+  </span>
+</div>
+  
+</div>
+
+              </div>
+              
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  <footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2021, Francesc Vilardell Sallés.<br/>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="last-updated">
+Última actualització el 25 d’octubre de 2021.<br/>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Creat fent servir <a href="http://sphinx-doc.org/">Sphinx</a> 4.0.2.<br/>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

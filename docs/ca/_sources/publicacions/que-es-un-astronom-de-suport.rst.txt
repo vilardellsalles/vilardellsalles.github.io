@@ -1,4 +1,4 @@
-.. post:: July 31, 2014
+.. post:: 31 juliol de 2014
    :tags: astronomia, astrònom, telescopi, enginyeria
 
 Què és un astrònom de suport?
@@ -27,7 +27,7 @@ cada telescopi té uns quants `instruments d'última generació
 expressament per a aquests telescopis. En la seva construcció hi participen
 centenars d'enginyers i científics de tot el món.
 
-.. update:: 16 de maig de 2021
+.. update:: 16 maig de 2021
 
    S'ha actualitzat l'enllaç a la pàgina d'instrumentació del GTC.
 
@@ -52,7 +52,7 @@ per tal de desenvolupar les seves investigacions, segueix un procediment que
 s'ha anat adoptant en tots els grans telescopis, inclòs el telescopi més famós
 del món, el `telescopi espacial Hubble <https://www.stsci.edu/hst/proposing>`_.
 
-.. update:: 16 de maig de 2021
+.. update:: 16 maig de 2021
 
    S'ha actualitzat l'enllaç a la pàgina d'enviament de propostes del telescopi
    espacial Hubble.
@@ -113,7 +113,7 @@ aquesta imatge (sala de control de l\\'`observatori de La Silla
 el màxim partit del temps al telescopi, l'astrònom de suport explica tot allò
 que l'observador pugui necessitar saber al llarg de la nit.
 
-.. update:: 16 de maig de 2021
+.. update:: 16 maig de 2021
 
    El AAO (actualment `AAT
    <https://aat.anu.edu.au/science/support-astronomers>`_) ja no proporciona
@@ -137,7 +137,7 @@ proporcionar tot el suport necessari per tal que els observadors dels
 telescopis més grans del món puguin treure el màxim partit del seu temps
 d'observació. És per això que reben el nom d'astrònoms de suport.
 
-.. update:: 16 de maig de 2021
+.. update:: 16 maig de 2021
 
    La secció explicant el motiu d'aquesta pàgina web s'ha eliminat, ja que no
    proporcionava informació i la majoria dels continguts es poden obtenir
