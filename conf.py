@@ -64,9 +64,9 @@ release = ''
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set 'language' from the command line for these cases.
 if language == 'ca':
-    locale.setlocale(locale.LC_ALL, 'ca_ES')
+    locale.setlocale(locale.LC_ALL, 'ca_ES.UTF-8')
 else:
-    locale.setlocale(locale.LC_ALL, 'en_US')
+    locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
 
 ablog_locales = os.path.join(os.path.dirname(ablog.__file__), 'locales', '')
 locale_dirs = ['locale/', ablog_locales]   # path is example but recommended.

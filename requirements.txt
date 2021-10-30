@@ -1,4 +1,4 @@
 Sphinx==4.0.2
 sphinx-intl==2.0.1
 pydata-sphinx-theme==0.6.3
-ablog==0.10.12
+git+https://github.com/vilardellsalles/ablog.git@80ba6e845efe168ed9d3a55109381caa32a2b954

@@ -1,6 +1,8 @@
 .. post:: July 31, 2014
    :tags: astronomy, astronomer, telescope, engineering
 
+.. _what_is_a_support_astronomer:
+
 What is a support astronomer?
 =============================
 

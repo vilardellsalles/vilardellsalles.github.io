@@ -31,10 +31,10 @@ afternoon, that will be chosen in most of the cases.
 The reasons expressed above have stimulated the scientific community to develop
 and use a huge amount of programs and libraries written in Python. Some of
 these packages are really popular, like `Numpy, Scipy, Matplotlib, IPython,
-Sympy and Pandas <http://www.scipy.org/>`_, to mention just a few. Astronomical
-community has not been an exception to this rule, developing and using programs
-and libraries like `Astropy <https://www.astropy.org/>`_ and `Sunpy
-<https://sunpy.org/>`_.
+Sympy and Pandas <https://www.scipy.org/>`_, to mention just a few.
+Astronomical community has not been an exception to this rule, developing and
+using programs and libraries like `Astropy <https://www.astropy.org/>`_ and
+`Sunpy <https://sunpy.org/>`_.
 
 .. update:: October 23, 2021
 
@@ -47,7 +47,7 @@ disappears when developing web applications. There are many reasons to explain
 this phenomenon, but I would highlight three largely extended beliefs:
 
 * A web application provides no great advantages to do the calculations that a scientist needs.
-* New programming languages have to be learned, like `HTML, CSS, Javascript, <http://www.w3schools.com/>`_ ...
+* New programming languages have to be learned, like `HTML, CSS, Javascript, <https://www.w3schools.com/>`_ ...
 * None of these languages has the libraries that scientists need to create their applications.
 
 The first one of the points above can be easily refuted. Most astronomers use

@@ -1,6 +1,8 @@
 .. post:: 31 juliol de 2014
    :tags: astronomia, astrònom, telescopi, enginyeria
 
+.. _que_es_un_astronom_de_suport:
+
 Què és un astrònom de suport?
 =============================
 

@@ -34,7 +34,7 @@ Els motius expressats anteriorment, han provocat que la comunitat científica
 hagi començat a utilitzar i desenvolupar una quantitat impressionant de
 programes i llibreries en Python, entre les quals s'hi troben paquets tant
 coneguts com `Numpy, Scipy, Matplotlib, IPython, Sympy i Pandas
-<http://www.scipy.org/>`_, entre molts altres. La comunitat astronòmica no ha
+<https://www.scipy.org/>`_, entre molts altres. La comunitat astronòmica no ha
 estat una excepció, desenvolupant i fent servir programes i llibreries com
 `Astropy <https://www.astropy.org/>`_ i `Sunpy <https://sunpy.org/>`_.
 
