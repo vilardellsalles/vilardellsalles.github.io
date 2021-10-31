@@ -14,9 +14,10 @@ If you are in a hurry, you can :ref:`go directly to the end<summarizing>` to
 find out. For those that have a couple of minutes, you may have seen pictures
 like this at some point:
 
-.. image:: ../_static/20091102_1.jpg
-   :alt: GTC image taken on November 2, 2009
+.. figure:: ../_static/20091102_1.jpg
    :align: center
+
+   GTC image taken on November 2, 2009.
 
 .. :align:left
 
@@ -96,9 +97,10 @@ the telescope, or observations are done in service mode. In the former case,
 when observers arrive at the telescope, they will likely find a control room
 (where the telescope is operated), like this one:
 
-.. image:: ../_static/20090516_2.jpg
-   :alt: Control room at La Silla observatory (Chile)
+.. figure:: ../_static/20090516_2.jpg
    :align: center
+
+   Control room at La Silla observatory (Chile).
 
 .. :align:left
 

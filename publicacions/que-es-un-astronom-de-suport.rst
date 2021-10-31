@@ -14,9 +14,10 @@ Per si teniu pressa, podeu :ref:`anar directament al final<resumint>` per
 saber-ho. Pels que tingueu dos minuts, és bastant probable que tots hagueu vist
 fotografies com aquesta en algun moment:"
 
-.. image:: ../_static/20091102_1.jpg
-   :alt: Imatge del GTC obtinguda el 2 de november de 2009
+.. figure:: ../_static/20091102_1.jpg
    :align: center
+
+   Imatge del GTC obtinguda el 2 de november de 2009.
 
 .. :align:left
 
@@ -101,16 +102,17 @@ telescopi, o que les observacions es facin en mode servei. En el primer cas,
 quan l'observador arriba al telescopi, es pot trobar que la sala de control
 (des d'on es fa anar el telescopi), tingui aquest aspecte:
 
-.. image:: ../_static/20090516_2.jpg
-   :alt: Sala de control a l'observatori de La Silla (Xile).
+.. figure:: ../_static/20090516_2.jpg
    :align: center
+
+   Sala de control a l'observatori de La Silla (Xile).
 
 .. :align:left
 
 En els observatoris més grans, hi ha una persona (l'operador de telescopi) que
 s'encarrega de fer anar el telescopi, però en altres casos és l'astrònom de
 suport (o el mateix observador) el que s'encarrega de tot el què es veu en
-aquesta imatge (sala de control de l\\'`observatori de La Silla
+aquesta imatge (sala de control de l\'`observatori de La Silla
 <https://www.eso.org/public/teles-instr/lasilla/>`_). Per tal d'ajudar a treure
 el màxim partit del temps al telescopi, l'astrònom de suport explica tot allò
 que l'observador pugui necessitar saber al llarg de la nit.
