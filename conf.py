@@ -28,6 +28,7 @@ extensions = [
 #    'sphinx.ext.todo',
 #    'alabaster',
     'ablog',
+    'bokeh.sphinxext.bokeh_plot',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -81,7 +82,7 @@ gettext_additional_targets = ['literal-block', 'alt']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['_build', '_plots', 'Thumbs.db', '.DS_Store']
 if language == 'ca':
     exclude_patterns += ['posts/*']
 else:
@@ -201,9 +202,9 @@ html_css_files = [
 
 # If not '', a 'Last updated on:' timestamp is inserted at every page bottom,
 # using the given strftime format.
-html_last_updated_fmt = '%B %d, %Y'
+html_last_updated_fmt = '%B %-d, %Y'
 if language == 'ca':
-    html_last_updated_fmt = '%d %B de %Y'
+    html_last_updated_fmt = '%-d %B de %Y'
 
 # If true, SmartyPants will be used to convert quotes and dashes to
 # typographically correct entities.
@@ -304,9 +305,9 @@ blog_languages = {'en': ('English', None), 'ca': ('Catal\u00E0', None)}
 
 # Format date for a post.
 # post_date_format = '%b %d, %Y'
-post_date_format = '%B %d, %Y'
+post_date_format = '%B %-d, %Y'
 if language == 'ca':
-    post_date_format = '%d %B de %Y'
+    post_date_format = '%-d %B de %Y'
 post_date_format_short = post_date_format
 
 # Number of paragraphs (default is ``1``) that will be displayed as an excerpt
