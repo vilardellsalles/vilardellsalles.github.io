@@ -1,3 +1,17 @@
 body {
   text-align: justify;
 }
+
+.caption {
+  font-size: .8rem;
+  margin-top: 0;
+  color: #757575;
+  font-style: italic;
+}
+
+.caption p {
+  font-size: .8rem;
+  margin-top: 0;
+  color: #757575;
+  font-style: italic;
+}
