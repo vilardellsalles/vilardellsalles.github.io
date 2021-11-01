@@ -2,3 +2,4 @@ _build*
 __pycache__
 docs
 locale/ca/LC_MESSAGES/posts/
+*.swp

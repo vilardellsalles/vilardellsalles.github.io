@@ -130,18 +130,18 @@ html_theme = 'pydata_sphinx_theme'
 #    'github_button': False,
 # }
 
-other_language = {'name': 'Català',
-                  'url': 'https://vilardellsalles.github.io/ca/index.html'}
-if language == 'ca':
-    other_language = {'name': 'English',
-                      'url': 'https://vilardellsalles.github.io/index.html'}
+# other_language = {'name': 'Català',
+#                   'url': 'https://vilardellsalles.github.io/ca/index.html'}
+# if language == 'ca':
+#     other_language = {'name': 'English',
+#                       'url': 'https://vilardellsalles.github.io/index.html'}
 
 html_theme_options = {
   'navbar_end': ['search-field.html', 'navbar-icon-links.html'],
   'search_bar_text': 'Cerca...' if language == 'ca' else 'Search...',
   'navigation_with_keys': False,
   'show_prev_next': False,
-  'external_links': [other_language],
+#  'external_links': [other_language],
   'footer_items': ['copyright', 'last-updated', 'sphinx-version'],
   'icon_links': [
         {
@@ -210,6 +210,8 @@ if language == 'ca':
 # typographically correct entities.
 # html_use_smartypants = True
 
+html_permalinks_icon = ''
+
 # Additional templates that should be rendered to pages, maps page names to
 # template names.
 # html_additional_pages = {}
@@ -222,6 +224,8 @@ if language == 'ca':
 
 # If true, the index is split into individual pages for each letter.
 # html_split_index = False
+
+html_copy_source = False
 
 # If true, links to the reST sources are added to the pages.
 # html_show_sourcelink = True
