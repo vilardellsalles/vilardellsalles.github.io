@@ -139,7 +139,7 @@ allowing that the 23:59:60 hours was a valid value.
 
 Most computers base their time on UTC, but leap seconds make that it cannot be
 considered constant, with the day having always 86400 seconds and a minute
-always lasting 60 seconds. There are some moments, like December 31st, 2016,
+always lasting 60 seconds. There are some moments, like December 31, 2016,
 when a minute lasts 61 seconds. This fact has been ignored in most software and
 `caused several errors in the past 
 <https://en.wikipedia.org/wiki/Leap_second#Issues_created_by_insertion_(or_removal)_of_leap_seconds>`_,

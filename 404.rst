@@ -1,0 +1,7 @@
+===
+404
+===
+
+Ups, the page you are looking for was not found!
+
+Maybe the content can be found by going to the :ref:`home page<homepage>`.

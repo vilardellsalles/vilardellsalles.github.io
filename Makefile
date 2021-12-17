@@ -33,7 +33,8 @@ ca:
 	mkdir -p _build/html/ca
 	cp -r $(BUILDDIR)_ca/html/ _build/html/ca/
 
-.PHONY: web
+.PHONY: all web
+all: web
 web: clean en ca
 	@$(SPHINXBUILD) -M linkcheck "$(SOURCEDIR)" "$(BUILDDIR)_en" $(SPHINXOPTS) -D language='en' $(O)
 	@$(SPHINXBUILD) -M linkcheck "$(SOURCEDIR)" "$(BUILDDIR)_ca" $(SPHINXOPTS) -D language='ca' -t ca $(O)

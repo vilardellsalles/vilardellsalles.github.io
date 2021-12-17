@@ -12,7 +12,7 @@ nou bloc, us ho explico tot amb pèls i senyals.
 
 Per si teniu pressa, podeu :ref:`anar directament al final<resumint>` per
 saber-ho. Pels que tingueu dos minuts, és bastant probable que tots hagueu vist
-fotografies com aquesta en algun moment:"
+fotografies com aquesta en algun moment:
 
 .. figure:: ../_static/20091102_1.jpg
    :align: center
