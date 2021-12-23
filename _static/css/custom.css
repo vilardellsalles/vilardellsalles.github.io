@@ -15,3 +15,11 @@ body {
   color: #757575;
   font-style: italic;
 }
+
+#last-posts h2 {
+  font-size: var(--pst-font-size-h3);
+}
+
+#learning-by-doing h2 {
+  font-size: var(--pst-font-size-h3);
+}

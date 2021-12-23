@@ -1,18 +1,17 @@
+:orphan:
+
 ===
 404
 ===
 
-----
+.. error::
 
-Ups, the page you are looking for was not found!
+  Ups, the page you are looking for was not found!
 
-Maybe the content can be found by going to the :ref:`home page<homepage>`.
+  Maybe the content can be found by going to the :doc:`home page<index>`.
 
-----
+.. error::
 
-Ui, no hem trobat la pàgina que estàs buscant!
+  Ui, no hem trobat la pàgina que estàs buscant!
 
-Potser pots trobar el contingut anant a la :ref:`pàgina d'inici<homepage>`.
-
-----
-
+  Potser pots trobar el contingut anant a la :doc:`pàgina d'inici<index>`.
