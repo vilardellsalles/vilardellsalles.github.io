@@ -16,6 +16,10 @@ body {
   font-style: italic;
 }
 
+.bd-sidebar {
+  overflow-y: scroll;
+}
+
 #last-posts h2 {
   font-size: var(--pst-font-size-h3);
 }

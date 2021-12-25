@@ -355,12 +355,16 @@ else:
 # In addition, there are authors.html, languages.html, and locations.html
 # sidebars that link to author and location archive pages.
 html_sidebars = {
-    '**': ['sidebar-nav-bs.html'
+#    '**': ['sidebar-nav-bs.html'
 #             'postcard.html', 'navigation.html',
 #             'recentposts.html', 'tagcloud.html',
 #             'categories.html',  'archives.html',
 #             'searchbox.html',
-            ],
+#            ],
+     'index': ['twitter.html'],
+     'blog**': ['tagcloud.html', 'archives.html'],
+     'posts**': ['sidebar-nav-bs.html'],
+     'publicacions**': ['sidebar-nav-bs.html'],
 }
 
 # -- Blog Feed Options --------------------------------------------------------
