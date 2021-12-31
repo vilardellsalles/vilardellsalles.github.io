@@ -3,6 +3,7 @@ from datetime import datetime
 
 from astropy.time import Time
 from astropy.utils import iers
+from astropy.utils.exceptions import ErfaWarning
 
 import bokeh.plotting as plt
 from bokeh.models.tools import HoverTool
@@ -17,10 +18,15 @@ def ut1_utc(data):
         with warnings.catch_warnings():
             warnings.simplefilter("error")
 
+            today = None
             ut1diff = []
             utcdiff = []
             iers_date = []
-            now = Time.now()
+            try:
+                now = Time.now()
+            except ErfaWarning:
+                print("Warning: remote IERS table is outdated!")
+                now = Time(max(data["MJD"]), format="mjd")
             for mjd, ut1utc in data["MJD", "UT1_UTC"]:
                 today = Time(mjd, format="mjd")
                 if today > now:
@@ -30,7 +36,10 @@ def ut1_utc(data):
                 ut1diff += [ut1utc.value + utcdiff[-1]]
 
     except Exception:
-        print("Error when reading date from input file:", today)
+        if today:
+            print("Error when reading date from input file:", today)
+        else:
+            print("Error when reding line from input file:", data[0])
         raise
 
     return iers_date, utcdiff, ut1diff
