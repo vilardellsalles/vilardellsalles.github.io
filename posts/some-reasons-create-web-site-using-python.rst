@@ -31,7 +31,7 @@ afternoon, that will be chosen in most of the cases.
 The reasons expressed above have stimulated the scientific community to develop
 and use a huge amount of programs and libraries written in Python. Some of
 these packages are really popular, like `Numpy, Scipy, Matplotlib, IPython,
-Sympy and Pandas <https://www.scipy.org/>`_, to mention just a few.
+Sympy and Pandas <https://scipy.org/>`_, to mention just a few.
 Astronomical community has not been an exception to this rule, developing and
 using programs and libraries like `Astropy <https://www.astropy.org/>`_ and
 `Sunpy <https://sunpy.org/>`_.

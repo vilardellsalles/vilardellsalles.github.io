@@ -210,7 +210,7 @@ if language == 'ca':
 # typographically correct entities.
 # html_use_smartypants = True
 
-html_permalinks_icon = ''
+html_permalinks = False
 
 # Additional templates that should be rendered to pages, maps page names to
 # template names.

@@ -1,5 +1,6 @@
 <ul id="navbar-main-elements" class="navbar-nav">
     {{ generate_nav_html("navbar", maxdepth=1, collapse=True, includehidden=True, titles_only=True) }}
+    <!-- Removed unused external_links due to https://github.com/sunpy/ablog/issues/30 -->
     <li class="nav-item">
     {% if language == "ca" %}
         <a class="nav-link nav-external" href="../{{ pathto(root_doc)|replace('#', root_doc + file_suffix) }}">English<i class="fas fa-external-link-alt"></i></a>
