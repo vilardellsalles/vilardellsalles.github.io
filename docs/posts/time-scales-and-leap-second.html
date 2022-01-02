@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Time scales and leap second &#8212; Support Astronomer</title>
     
-  <link href="../_static/css/theme.css" rel="stylesheet" />
-  <link href="../_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -23,10 +23,10 @@
 
     
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/blank.css" />
     <link rel="stylesheet" type="text/css" href="../_static/css/custom.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.1c5a1a01449ed65a7b51.js">
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -96,7 +96,7 @@
  </a>
 </li>
 
-    
+    <!-- Removed unused external_links due to https://github.com/sunpy/ablog/issues/30 -->
     <li class="nav-item">
     
         <a class="nav-link nav-external" href="../ca/index.html">Català<i class="fas fa-external-link-alt"></i></a>
@@ -154,18 +154,6 @@
     <div class="container-xl">
       <div class="row">
           
-            
-            <!-- Only show if we have sidebars configured, else just a small margin  -->
-            <div class="col-12 col-md-3 bd-sidebar"><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
-  <div class="bd-toc-item active">
-    
-  </div>
-</nav>
-            </div>
-            
-          
-
-          
           <div class="d-none d-xl-block col-xl-2 bd-toc">
             
               
@@ -218,7 +206,7 @@
               
               <div>
                  <div class="section" id="time-scales-and-leap-second">
-<h1>Time scales and leap second<a class="headerlink" href="#time-scales-and-leap-second" title="Permalink to this headline"></a></h1>
+<h1>Time scales and leap second</h1>
 <p>After a time of silence, I come back to this blog to explain one of the most
 fundamental concepts with completely different visions between astronomers and
 engineers: the time. One might think that measuring time is a simple thing, you
@@ -233,7 +221,7 @@ post was written, it has been clarified everywhere that this post refers to
 the leap second introduced in December 31, 2016.</p>
 </div>
 <div class="section" id="time-zones">
-<h2>Time zones<a class="headerlink" href="#time-zones" title="Permalink to this headline"></a></h2>
+<h2>Time zones</h2>
 <p>Everybody is used to work with dates. We are used to talk about years, months,
 days, hours, minutes, seconds,… The tricky thing is the concept behind these
 values. In daily life, that is rather irrelevant. We all know that a day has 24
@@ -244,7 +232,7 @@ It is well known that different countries have different times. The different
 time zones are usually represented in a world map like the following one:</p>
 <div class="figure align-default" id="id1">
 <img alt="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/World_Time_Zones_Map.png/1024px-World_Time_Zones_Map.png" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/World_Time_Zones_Map.png/1024px-World_Time_Zones_Map.png" />
-<p class="caption"><span class="caption-text"><a class="reference external" href="https://commons.wikimedia.org/w/index.php?title=File:World_Time_Zones_Map.png&amp;uselang=en">Official Standard Time Zones in the World</a> by <a class="reference external" href="https://commons.wikimedia.org/w/index.php?title=User:TimeZonesBoy&amp;action=edit&amp;redlink=1&amp;uselang=en">TimeZonesBoy</a> (<a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>).</span><a class="headerlink" href="#id1" title="Permalink to this image"></a></p>
+<p class="caption"><span class="caption-text"><a class="reference external" href="https://commons.wikimedia.org/w/index.php?title=File:World_Time_Zones_Map.png&amp;uselang=en">Official Standard Time Zones in the World</a> by <a class="reference external" href="https://commons.wikimedia.org/w/index.php?title=User:TimeZonesBoy&amp;action=edit&amp;redlink=1&amp;uselang=en">TimeZonesBoy</a> (<a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>).</span></p>
 </div>
 <p>According to the map above, when for example its 1 p.m at Barcelona, it can be
 7 a.m at New York. Therefore, when you travel from Barcelona to New York, you
@@ -266,7 +254,7 @@ different. On the contrary, you could have the Sun rising at 8 p.m. or setting
 at 10 a.m.</p>
 </div>
 <div class="section" id="coordinated-universal-time-utc">
-<h2>Coordinated Universal Time (UTC)<a class="headerlink" href="#coordinated-universal-time-utc" title="Permalink to this headline"></a></h2>
+<h2>Coordinated Universal Time (UTC)</h2>
 <p>The different time zones are just an annoyance when traveling, but it is a
 relevant issue when communicating with people or computers placed all around
 the globe. In order to synchronize the timestamps of all the computers around
@@ -290,7 +278,7 @@ day changed, the duration of a second could depend on any of the different
 phenomena that affect Earth rotation.</p>
 </div>
 <div class="section" id="international-atomic-time-tai">
-<h2>International Atomic Time (TAI)<a class="headerlink" href="#international-atomic-time-tai" title="Permalink to this headline"></a></h2>
+<h2>International Atomic Time (TAI)</h2>
 <p>When atomic clocks emerged, time could be measured in a stable way, allowing a
 solid definition of the second. Hence, in 1968, <a class="reference external" href="https://www.nist.gov/si-redefinition/second-introduction">the second was defined as the
 time needed by an electron to perform 9,192,631,770 energy transitions in a
@@ -315,7 +303,7 @@ Time (TAI)</strong>. It important to remark that this definition does not depend
 the Earth orientation.</p>
 </div>
 <div class="section" id="leap-seconds">
-<h2>Leap seconds<a class="headerlink" href="#leap-seconds" title="Permalink to this headline"></a></h2>
+<h2>Leap seconds</h2>
 <p>In most cases, an UTC day and a TAI day have exactly the same duration: 86400
 seconds. But, as mentioned above, Earth rotation is not perfectly constant.
 Earth is slowing down because Moon is breaking it, through tides. As time goes
@@ -328,7 +316,7 @@ introducing an extra second at midnight (on June 31 or on December 31). The
 last time it happened was between December 31, 2016, and January 1, 2017, by
 allowing that the 23:59:60 hours was a valid value.</p>
 
-<script src="bokeh-content-dede8faf2b5a4878861ed086d169d2da-posts-time-scales-and-leap-second.js" id="e711c6ed-b074-4179-8787-df617c68de0d"></script><div class="caption docutils container">
+<script src="bokeh-content-657f995de56642a8bd98a7acbc8fcb06-posts-time-scales-and-leap-second.js" id="c315e85d-9be5-4071-8ff7-bf4b9469a6ce"></script><div class="caption docutils container">
 <p>Time difference UT1-TAI and UTC-TAI for each year. Every step in the blue
 line corresponds to a leap second.</p>
 </div>
@@ -368,23 +356,35 @@ better talk about it in another post.</p>
           </main>
           
 
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 order-md-first bd-sidebar"><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+            </div>
+            
+          
+
       </div>
     </div>
   
-  <script src="../_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
 
   <footer class="footer mt-5 mt-md-0">
   <div class="container">
     
     <div class="footer-item">
       <p class="copyright">
-    &copy; Copyright 2021, Francesc Vilardell Sallés.<br/>
+    &copy; Copyright 2022, Francesc Vilardell Sallés.<br>
 </p>
     </div>
     
     <div class="footer-item">
       <p class="last-updated">
-Last updated on December 23, 2021.<br/>
+Last updated on January 2, 2022.<br>
 </p>
     </div>
     

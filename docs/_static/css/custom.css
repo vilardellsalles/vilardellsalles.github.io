@@ -16,10 +16,18 @@ body {
   font-style: italic;
 }
 
+.bd-sidebar {
+  overflow-y: scroll;
+}
+
 #last-posts h2 {
   font-size: var(--pst-font-size-h3);
 }
 
 #learning-by-doing h2 {
   font-size: var(--pst-font-size-h3);
+}
+
+#last-tweets h3 {
+  color: rgba(var(--pst-color-h2),1);
 }
