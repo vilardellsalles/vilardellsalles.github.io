@@ -97,7 +97,7 @@ cesium atom <https://www.nist.gov/si-redefinition/second-introduction>`_. In
 rest <https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication330e2008.pdf>`_.
 There are two aspects that I would like to remark from this definition:
 
-* The first relevant aspect is that a second is defined for an atom at rest. According to Einstein's theory of relativity, time runs differently for two observers having a relative speed between each other. Different clocks moving at different speeds (e.g., `in artificial satellites <http://www.astronomy.ohio-state.edu/~pogge/Ast162/Unit5/gps.html>`_) have been observed to run differently.
+* The first relevant aspect is that a second is defined for an atom at rest. According to Einstein's theory of relativity, time runs differently for two observers having a relative speed between each other. Different clocks moving at different speeds (e.g., `in artificial satellites <https://www.astronomy.ohio-state.edu/pogge.1/Ast162/Unit5/gps.html>`_) have been observed to run differently.
  
 * The second relevant aspect is the number of transitions defining a second. Why a second was not defined as the duration of 9 billion energy transitions? It would have been much easier to remember and it would have implied almost no difference (less than 3%). The underlying reason is that if an UTC day had to continue having 86400 seconds, it was determined that a second required the number of transitions above.
 

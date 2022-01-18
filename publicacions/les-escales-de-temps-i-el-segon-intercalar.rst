@@ -105,7 +105,7 @@ ampliar la definició per precisar que `l'àtom de cesi ha d'estar en repòs
 <https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication330e2008.pdf>`_.
 Hi ha dos punts que voldria destacar en aquesta definició:
 
-* El primer punt és que el segon es defineixi per un àtom en repòs. Tal i com prediu la teoria de la relativitat d'Einstein, el temps transcorre a ritmes diferents en funció de la velocitat relativa a la que es mouen dos observadors. Així doncs, s'ha observat que rellotges movent-se a velocitats diferents (per exemple, `en satèl·lits <http://www.astronomy.ohio-state.edu/~pogge/Ast162/Unit5/gps.html>`_) mesuren el temps de manera diferent.
+* El primer punt és que el segon es defineixi per un àtom en repòs. Tal i com prediu la teoria de la relativitat d'Einstein, el temps transcorre a ritmes diferents en funció de la velocitat relativa a la que es mouen dos observadors. Així doncs, s'ha observat que rellotges movent-se a velocitats diferents (per exemple, `en satèl·lits <https://www.astronomy.ohio-state.edu/pogge.1/Ast162/Unit5/gps.html>`_) mesuren el temps de manera diferent.
 
 * El segon punt rellevat és el nombre de transicions que defineixen un segon. Perquè no es va definir el segon com el temps necessari per fer 9 mil milions de transicions? Hauria sigut un valor molt més fàcil de recordar i pràcticament no hi hauria hagut cap diferència (menys d'un 3%). El motiu és que si un dia UTC havia de continuar tenint 86400 segons, es va determinar que calien aquest nombre de transicions cada segon.
 
