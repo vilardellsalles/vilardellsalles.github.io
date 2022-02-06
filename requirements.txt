@@ -1,6 +1,6 @@
-Sphinx==4.0.2
+Sphinx==4.4.0
 sphinx-intl==2.0.1
-pydata-sphinx-theme==0.7.2
+pydata-sphinx-theme==0.8.0
 bokeh==2.4.2
-astropy==3.2.3
+astropy==4.3.1
 git+https://github.com/vilardellsalles/ablog.git@9e78ea87fdfee9cc4b10193524a9ac7ca6771d30
