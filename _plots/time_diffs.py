@@ -73,7 +73,7 @@ def main(x_label, y_label):
     tools = "pan,wheel_zoom,box_zoom,save,undo,redo,reset".split(",")
     tools += [HoverTool(tooltips=tooltips, formatters={"@dates": "datetime"})]
 
-    figure = plt.figure(plot_width=750, plot_height=450, tools=tools,
+    figure = plt.figure(width=750, height=450, tools=tools,
                         x_range=x_range, x_axis_type="datetime",
                         x_axis_label=x_label, y_range=y_range,
                         y_axis_label=y_label, sizing_mode="scale_width")
@@ -82,7 +82,7 @@ def main(x_label, y_label):
     figure.line("dates", "utcdiff", source=plot_data, color="blue",
                 legend_label="UTC-TAI")
 
-    figure.xaxis.formatter.months = ["%Y-%m"]
-    figure.xaxis.formatter.days = ["%F"]
+    figure.xaxis.formatter.months = "%Y-%m"
+    figure.xaxis.formatter.days = "%F"
 
     plt.save(figure)

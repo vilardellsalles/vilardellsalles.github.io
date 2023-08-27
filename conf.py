@@ -82,7 +82,7 @@ gettext_additional_targets = ['literal-block', 'alt']
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build', '_plots', 'Thumbs.db', '.DS_Store']
+exclude_patterns = ['.venv', '_build', '_plots', 'Thumbs.db', '.DS_Store']
 if language == 'ca':
     exclude_patterns += ['posts/*']
 else:
@@ -137,32 +137,39 @@ html_theme = 'pydata_sphinx_theme'
 #                       'url': 'https://vilardellsalles.github.io/index.html'}
 
 html_theme_options = {
-  'navbar_end': ['search-field.html', 'navbar-icon-links.html'],
+  'navbar_end': ['navbar-icon-links.html'],
+  'navbar_persistent': ['search-field.html'],
   'search_bar_text': 'Cerca...' if language == 'ca' else 'Search...',
   'navigation_with_keys': False,
   'show_prev_next': False,
 #  'external_links': [other_language],
-  'footer_items': ['copyright', 'last-updated', 'sphinx-version'],
+  'footer_start': ['copyright', 'last-updated'],
+  'footer_end': ['sphinx-version', 'theme-version'],
   'icon_links': [
         {
             'name': 'GitHub',
             'url': 'https://github.com/vilardellsalles',
-            'icon': 'fab fa-github',
+            'icon': 'fa-brands fa-github',
+            'type': 'fontawesome',
         },
         {
             'name': 'Twitter',
             'url': 'https://twitter.com/vilardellsalles',
-            'icon': 'fab fa-twitter',
+#            'icon': 'fa-brands fa-x-twitter',
+            'icon': 'fa-brands fa-twitter',
+            'type': 'fontawesome',
         },
         {
-            'name': 'Linkedin',
+            'name': 'LinkedIn',
             'url': 'https://es.linkedin.com/in/francesc-vilardell-sall%C3%A9s-5741869b',
-            'icon': 'fab fa-linkedin',
+            'icon': 'fa-brands fa-linkedin',
+            'type': 'fontawesome',
         },
         {
             'name': 'ORCID',
             'url': 'http://orcid.org/0000-0003-0441-1504',
-            'icon': 'fab fa-orcid',
+            'icon': 'fa-brands fa-orcid',
+            'type': 'fontawesome',
         },
     ]
 }
@@ -362,7 +369,7 @@ html_sidebars = {
 #             'searchbox.html',
 #            ],
      'index': ['sidebar-nav-bs.html'],
-     'blog**': ['tagcloud.html', 'archives.html'],
+     'blog**': ['ablog/tagcloud.html', 'ablog/archives.html'],
      'posts**': ['sidebar-nav-bs.html'],
      'publicacions**': ['sidebar-nav-bs.html'],
 }

@@ -25,6 +25,7 @@ en:
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)_$@" $(SPHINXOPTS) -D language='$@' -t $@ $(O)
 	jupyter nbconvert notebooks/PyDayBCN2022/PyDayBCN2022.ipynb --to slides
 	mv notebooks/PyDayBCN2022/PyDayBCN2022.slides.html $(BUILDDIR)_en/html/PyDayBCN2022.html
+	rm -rf _build/html/
 	mkdir -p _build/html/
 	cp -r $(BUILDDIR)_en/html/ _build/html/
 
@@ -32,6 +33,7 @@ en:
 ca:
 	@$(SPHINXBUILD) -M clean "$(SOURCEDIR)" "$(BUILDDIR)_$@" $(SPHINXOPTS) $(O)
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)_$@" $(SPHINXOPTS) -D language='$@' -t $@ $(O)
+	rm -rf _build/html/
 	mkdir -p _build/html/ca
 	cp -r $(BUILDDIR)_ca/html/ _build/html/ca/
 
