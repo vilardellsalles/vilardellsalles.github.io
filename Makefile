@@ -24,7 +24,7 @@ en:
 	@$(SPHINXBUILD) -M clean "$(SOURCEDIR)" "$(BUILDDIR)_$@" $(SPHINXOPTS) $(O)
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)_$@" $(SPHINXOPTS) -D language='$@' -t $@ $(O)
 	jupyter nbconvert notebooks/PyDayBCN2022/PyDayBCN2022.ipynb --to slides
-	cp notebooks/PyDayBCN2022/PyDayBCN2022.slides.html $(BUILDDIR)_en/html/PyDayBCN2022.html
+	mv notebooks/PyDayBCN2022/PyDayBCN2022.slides.html $(BUILDDIR)_en/html/PyDayBCN2022.html
 	mkdir -p _build/html/
 	cp -r $(BUILDDIR)_en/html/ _build/html/
 
@@ -38,6 +38,7 @@ ca:
 .PHONY: all web
 all: web
 web: clean en ca
+    export REQUESTS_CA_BUNDLE=${VIRTUAL_ENV}/cacert.pem
 	@$(SPHINXBUILD) -M linkcheck "$(SOURCEDIR)" "$(BUILDDIR)_en" $(SPHINXOPTS) -D language='en' $(O)
 	@$(SPHINXBUILD) -M linkcheck "$(SOURCEDIR)" "$(BUILDDIR)_ca" $(SPHINXOPTS) -D language='ca' -t ca $(O)
 

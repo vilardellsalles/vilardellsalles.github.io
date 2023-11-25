@@ -361,7 +361,7 @@ html_sidebars = {
 #             'categories.html',  'archives.html',
 #             'searchbox.html',
 #            ],
-     'index': ['twitter.html'],
+     'index': ['sidebar-nav-bs.html'],
      'blog**': ['tagcloud.html', 'archives.html'],
      'posts**': ['sidebar-nav-bs.html'],
      'publicacions**': ['sidebar-nav-bs.html'],
