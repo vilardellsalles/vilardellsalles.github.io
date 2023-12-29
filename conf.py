@@ -126,23 +126,13 @@ html_theme = 'pydata_sphinx_theme'
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-# html_theme_options = {
-#    'github_button': False,
-# }
-
-# other_language = {'name': 'Català',
-#                   'url': 'https://vilardellsalles.github.io/ca/index.html'}
-# if language == 'ca':
-#     other_language = {'name': 'English',
-#                       'url': 'https://vilardellsalles.github.io/index.html'}
 
 html_theme_options = {
   'navbar_end': ['navbar-icon-links.html'],
-  'navbar_persistent': ['search-field.html'],
+  'secondary_sidebar_items': [],
   'search_bar_text': 'Cerca...' if language == 'ca' else 'Search...',
   'navigation_with_keys': False,
   'show_prev_next': False,
-#  'external_links': [other_language],
   'footer_start': ['copyright', 'last-updated'],
   'footer_end': ['sphinx-version', 'theme-version'],
   'icon_links': [
@@ -175,7 +165,6 @@ html_theme_options = {
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
-# html_theme_path = [alabaster.get_path()]
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # '<project> v<release> documentation'.

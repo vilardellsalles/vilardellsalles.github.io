@@ -2,6 +2,14 @@ body {
   text-align: justify;
 }
 
+small {
+  font-size: .8rem;
+}
+
+.form-control {
+  border: none;
+}
+
 .caption {
   font-size: .8rem;
   margin-top: 0;
