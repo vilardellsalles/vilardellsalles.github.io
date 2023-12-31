@@ -357,10 +357,10 @@ html_sidebars = {
 #             'categories.html',  'archives.html',
 #             'searchbox.html',
 #            ],
-     'index': ['sidebar-nav-bs.html'],
+     'index': ['page-toc.html'],
      'blog**': ['ablog/tagcloud.html', 'ablog/archives.html'],
-     'posts**': ['sidebar-nav-bs.html'],
-     'publicacions**': ['sidebar-nav-bs.html'],
+     'posts**': ['page-toc.html'],
+     'publicacions**': ['page-toc.html'],
 }
 
 # -- Blog Feed Options --------------------------------------------------------

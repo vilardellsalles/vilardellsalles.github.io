@@ -26,6 +26,7 @@ small {
 
 .bd-sidebar {
   overflow-y: scroll;
+  max-width: 320px;
 }
 
 #last-posts h2 {
