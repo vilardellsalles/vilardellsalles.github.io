@@ -35,7 +35,12 @@ següent:
 
 .. figure:: https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/World_Time_Zones_Map.png/1024px-World_Time_Zones_Map.png
 
-   `Mapa mundial de les zones horàries <https://commons.wikimedia.org/w/index.php?title=File:World_Time_Zones_Map.png&uselang=ca>`_ per `TimeZonesBoy <https://commons.wikimedia.org/w/index.php?title=User:TimeZonesBoy&action=edit&redlink=1&uselang=ca>`_ (`CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.ca>`_).
+   `Mapa mundial de les zones horàries de facto actuals <https://commons.wikimedia.org/w/index.php?title=File:World_Time_Zones_Map.png&uselang=ca>`_.
+
+.. update:: 2 de gener de 2024
+
+   Peu de figura en el mapa mundial actualitzat per reflectir millor els
+   possibles canvis.
 
 Així doncs quan, per exemple, són la una del migdia a Barcelona, poden ser les
 7 del matí a Nova York. Això fa que, si viatgem de Barcelona a Nova York, ens

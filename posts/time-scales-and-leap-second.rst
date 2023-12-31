@@ -14,9 +14,8 @@ concepts: the leap second.
 
 .. update:: October 30, 2021
 
-   Even, so far, no additional leap seconds have been introduced since this
-   post was written, it has been clarified everywhere that this post refers to
-   the leap second introduced in December 31, 2016. 
+   It has been clarified everywhere that this post refers to the leap second
+   introduced in December 31, 2016. 
 
 Time zones
 ----------
@@ -32,7 +31,11 @@ time zones are usually represented in a world map like the following one:
 
 .. figure:: https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/World_Time_Zones_Map.png/1024px-World_Time_Zones_Map.png
 
-   `Official Standard Time Zones in the World <https://commons.wikimedia.org/w/index.php?title=File:World_Time_Zones_Map.png&uselang=en>`_ by `TimeZonesBoy <https://commons.wikimedia.org/w/index.php?title=User:TimeZonesBoy&action=edit&redlink=1&uselang=en>`_ (`CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0/deed.en>`_).
+   `World map of current de facto time zones <https://commons.wikimedia.org/w/index.php?title=File:World_Time_Zones_Map.png&uselang=en>`_.
+
+.. update:: January 2, 2024
+
+   Caption in world map updated to properly reflect any possible changes.
 
 According to the map above, when for example its 1 p.m at Barcelona, it can be
 7 a.m at New York. Therefore, when you travel from Barcelona to New York, you
