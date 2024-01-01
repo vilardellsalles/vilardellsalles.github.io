@@ -37,7 +37,7 @@ següent:
 
    `Mapa mundial de les zones horàries de facto actuals <https://commons.wikimedia.org/w/index.php?title=File:World_Time_Zones_Map.png&uselang=ca>`_.
 
-.. update:: 2 de gener de 2024
+.. update:: 2 gener de 2024
 
    Peu de figura en el mapa mundial actualitzat per reflectir millor els
    possibles canvis.

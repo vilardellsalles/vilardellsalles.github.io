@@ -101,7 +101,7 @@ by default, in addition to HTML and CSS. Once again, the number of astronomical
 libraries in JavaScript is rather small, even some `interesting libraries
 <http://aladin.u-strasbg.fr/AladinLite/doc/>`_ are starting to be developed.
 
-.. update:: October 23,2021
+.. update:: October 23, 2021
 
    Link to Aladin Lite documentation updated.
 
