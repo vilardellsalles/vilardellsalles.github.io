@@ -4,5 +4,4 @@ pydata-sphinx-theme==0.14.4
 bokeh==3.3.2
 astropy==6.0.0
 jupyter==1.0.0
-ablog
-#git+https://github.com/vilardellsalles/ablog.git@9e78ea87fdfee9cc4b10193524a9ac7ca6771d30
+git+https://github.com/vilardellsalles/ablog.git@babel-dates

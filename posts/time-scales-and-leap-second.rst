@@ -55,7 +55,7 @@ its sides is illuminated by the Sun, while the other side is at night:
 
    Video showing how different Earth zones have different orientations with
    respect to the Sun, placed towards the left of the video. Video made with
-   `Celestia <https://celestia.space/>`_.
+   `Celestia <https://celestiaproject.space/>`_.
 
 Historically, the time when the Sun is at its highest point has been called 12
 at noon. Since different places on Earth have a slightly different orientation

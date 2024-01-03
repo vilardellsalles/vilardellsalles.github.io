@@ -61,7 +61,7 @@ a l'ombra:
 
    Vídeo mostrant com diferents zones de la Terra tenen diferents orientacions
    respecte el Sol, situat a l'esquerra del vídeo. Vídeo fet amb `Celestia
-   <https://celestia.space/>`_.
+   <https://celestiaproject.space/>`_.
 
 Històricament, s'ha definit les 12 del migdia com el moment en el que el Sol
 està en el seu punt més alt. Com que cada punt de la Terra té una orientació

@@ -26,18 +26,20 @@ small {
   border: none;
 }
 
-.caption {
+.caption, .caption-text {
   font-size: .8rem;
   margin-top: 0;
   color: #757575;
   font-style: italic;
+  text-align: center;
 }
 
-.caption p {
+.caption p, .caption-text p {
   font-size: .8rem;
   margin-top: 0;
   color: #757575;
   font-style: italic;
+  text-align: center;
 }
 
 .bd-main .bd-content {
@@ -70,6 +72,10 @@ small {
 
 .page-toc .nav-link {
   font-size: var(--pst-sidebar-font-size);
+}
+
+.page-toc .section-nav {
+  margin-left: 1.25rem;
 }
 
 @media (min-width: 540px) {
