@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Support Astronomer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-04 00:49+0100\n"
+"POT-Creation-Date: 2024-01-04 19:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,6 +53,18 @@ msgstr "Etiquetes"
 #: ../../_templates/ablog/postcard2.html:98
 msgid "Tag"
 msgstr "Etiqueta"
+
+#: ../../_templates/breadcrumbs.html:13
+msgid "Breadcrumb"
+msgstr "Menú"
+
+#: ../../_templates/breadcrumbs.html:17
+msgid "Home"
+msgstr "Inici"
+
+#: ../../_templates/breadcrumbs.html:21
+msgid "Blog"
+msgstr "Bloc"
 
 #: ../../_templates/navbar-logo.html:3
 msgid "Passion for astronomy, robotics and much more"

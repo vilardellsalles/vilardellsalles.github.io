@@ -89,6 +89,11 @@ small {
   margin-bottom: 1.15rem;
 }
 
+.ablog__collection .ablog-post .ablog-post-title {
+  font-size: var(--pst-font-size-h3);
+  margin-top: 2.75rem;
+}
+
 .ablog-sidebar-item ul {
   margin-left: 1rem;
   line-height: 1.1rem;
@@ -116,9 +121,4 @@ small {
 
 .ablog-cloud-5 {
   font-size: 140%;
-}
-
-.ablog__collection .ablog-post .ablog-post-title {
-  font-size: var(--pst-font-size-h2);
-  margin-top: 2.75rem;
 }
