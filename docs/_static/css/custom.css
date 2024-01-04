@@ -1,23 +1,13 @@
+html[data-theme="light"] {
+  --pst-color-secondary: #371f22;
+}
+
 body {
   text-align: justify;
 }
 
-.caption {
+small {
   font-size: .8rem;
-  margin-top: 0;
-  color: #757575;
-  font-style: italic;
-}
-
-.caption p {
-  font-size: .8rem;
-  margin-top: 0;
-  color: #757575;
-  font-style: italic;
-}
-
-.bd-sidebar {
-  overflow-y: scroll;
 }
 
 #last-posts h2 {
@@ -30,4 +20,105 @@ body {
 
 #last-tweets h3 {
   color: rgba(var(--pst-color-h2),1);
+}
+
+.form-control {
+  border: none;
+}
+
+.caption, .caption-text {
+  font-size: .8rem;
+  margin-top: 0;
+  color: #757575;
+  font-style: italic;
+  text-align: center;
+}
+
+.caption p, .caption-text p {
+  font-size: .8rem;
+  margin-top: 0;
+  color: #757575;
+  font-style: italic;
+  text-align: center;
+}
+
+.bd-main .bd-content {
+  padding: 1rem;
+  justify-content: flex-start;
+}
+
+.bd-main .bd-content .bd-article-container .bd-article {
+  padding-left: 0.5rem;
+  padding-top: 0;
+}
+
+.bd-footer .footer-items__end, .bd-footer .footer-items__start {
+  gap: 0;
+}
+
+@media (max-width: 960px) {
+  .bd-footer .bd-footer__inner {
+      flex-direction: column;
+  }
+  .bd-footer .footer-items__end {
+      text-align: left;
+  }
+}
+
+.bd-sidebar {
+  overflow-y: scroll;
+  max-width: 320px;
+}
+
+.page-toc .nav-link {
+  font-size: var(--pst-sidebar-font-size);
+}
+
+.page-toc .section-nav {
+  margin-left: 1.25rem;
+}
+
+@media (min-width: 540px) {
+  .postlist {
+    padding-left: 3rem;
+  }
+}
+
+.postlist .ablog-post .ablog-post-title {
+  font-size: 1rem;
+  margin-bottom: 1.15rem;
+}
+
+.ablog-sidebar-item ul {
+  margin-left: 1rem;
+  line-height: 1.1rem;
+}
+
+.ablog-sidebar-item ul li a {
+  text-decoration: none;
+}
+
+.ablog-cloud-1 {
+  font-size: 100%;
+}
+
+.ablog-cloud-2 {
+  font-size: 110%;
+}
+
+.ablog-cloud-3 {
+  font-size: 120%;
+}
+
+.ablog-cloud-4 {
+  font-size: 130%;
+}
+
+.ablog-cloud-5 {
+  font-size: 140%;
+}
+
+.ablog__collection .ablog-post .ablog-post-title {
+  font-size: var(--pst-font-size-h2);
+  margin-top: 2.75rem;
 }
