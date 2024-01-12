@@ -359,8 +359,8 @@ html_sidebars = {
 #            ],
      'index': ['page-toc.html'],
      'blog**': ['ablog/tagcloud.html', 'ablog/archives.html'],
-     'posts**': ['page-toc.html'],
-     'publicacions**': ['page-toc.html'],
+     'posts**': ['ablog/postcard.html'],
+     'publicacions**': ['ablog/postcard.html'],
 }
 
 # -- Blog Feed Options --------------------------------------------------------

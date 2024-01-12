@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Support Astronomer \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-04 19:06+0100\n"
+"POT-Creation-Date: 2024-01-07 15:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,11 @@ msgstr "borradors"
 
 #: ../../_templates/ablog/collection.html:65
 msgid "Read more ..."
-msgstr ""
+msgstr "Llegir-ne més ..."
+
+#: ../../_templates/ablog/postcard.html:5
+msgid "Post details"
+msgstr "Detalls de la publicació"
 
 #: ../../_templates/ablog/postcard2.html:7
 msgid "Update"
@@ -72,7 +76,7 @@ msgstr "Passió per l'astronomia, la robòtica i molt més"
 
 #: ../../_templates/navbar-nav.html:2 ../../_templates/navbar-nav.html:3
 msgid "Site Navigation"
-msgstr ""
+msgstr "Navegació del lloc"
 
 #~ msgid "Archives"
 #~ msgstr "Arxiu"

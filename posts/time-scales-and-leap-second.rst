@@ -145,7 +145,7 @@ considered constant, with the day having always 86400 seconds and a minute
 always lasting 60 seconds. There are some moments, like December 31, 2016,
 when a minute lasts 61 seconds. This fact has been ignored in most software and
 `caused several errors in the past 
-<https://en.wikipedia.org/wiki/Leap_second#Issues_created_by_insertion_(or_removal)_of_leap_seconds>`_,
+<https://en.wikipedia.org/wiki/Leap_second#Issues_created_by_insertion_%28or_removal%29_of_leap_seconds>`_,
 even in large multinationals. Some proposals to abolish the leap second have
 been made, by changing the definition of UTC, but a better solution could be to
 change the reference time of the computers, using TAI instead of UTC. But I may

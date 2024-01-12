@@ -94,6 +94,14 @@ small {
   margin-top: 2.75rem;
 }
 
+.ablog__prev-next {
+  font-size: 1rem;
+}
+
+.ablog-sidebar-title {
+  font-weight: bold;
+}
+
 .ablog-sidebar-item ul {
   margin-left: 1rem;
   line-height: 1.1rem;
