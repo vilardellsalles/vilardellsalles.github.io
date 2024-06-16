@@ -13,7 +13,7 @@ learn how to integrate slides into a web page using the
  
 .. update:: June 16, 2024
 
-   This presentation was originally placed as a standalone page. Moved to a post
+   This presentation was originally placed as a standalone page. Moved to a blog post
    entry. It is a little bit outdated now, but I decided to leave the
    presentation as it was given.
 
