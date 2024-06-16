@@ -87,6 +87,7 @@ small {
 .postlist .ablog-post .ablog-post-title {
   font-size: 1rem;
   margin-bottom: 1.15rem;
+  font-weight: bold;
 }
 
 .ablog__collection .ablog-post .ablog-post-title {
