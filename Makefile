@@ -32,10 +32,9 @@ en:
 	#@$(SPHINXBUILD) -M clean "$(SOURCEDIR)" "$(BUILDDIR)_$@" $(SPHINXOPTS) $(O)
 	touch index.rst
 	@$(SPHINXBUILD) -M html "$(SOURCEDIR)" "$(BUILDDIR)_$@" $(SPHINXOPTS) -D language='$@' -t $@ $(O)
-	jupyter nbconvert notebooks/PyDayBCN2022/PyDayBCN2022.ipynb --to slides
+	jupyter nbconvert --to slides --template custom_reveal --TemplateExporter.extra_template_basedirs=_templates notebooks/PyDayBCN2022/PyDayBCN2022.ipynb
 	# Copying to root for historical reasons only
-	cp notebooks/PyDayBCN2022/PyDayBCN2022.slides.html $(BUILDDIR)_en/html/PyDayBCN2022.html
-	mv notebooks/PyDayBCN2022/PyDayBCN2022.slides.html $(BUILDDIR)_en/html/posts/
+	mv notebooks/PyDayBCN2022/PyDayBCN2022.slides.html $(BUILDDIR)_en/html/PyDayBCN2022.html
 	mkdir -p $(BUILDDIR)/html/
 	cp -r $(BUILDDIR)_$@/html/ $(BUILDDIR)/html/
 

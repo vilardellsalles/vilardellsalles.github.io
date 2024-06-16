@@ -135,8 +135,8 @@ small {
 .slides {
   position: relative;
   overflow: hidden;
-  width: 90%;
-  padding-top: 75%;
+  width: 80%;
+  padding-top: 60%; /* 4:3 aspect ratio */
   display: block;
   margin: auto;
 }
