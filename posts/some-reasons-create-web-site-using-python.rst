@@ -12,16 +12,16 @@ pages using Python.
 
 In the last few years, `Python <https://www.python.org/>`_ has become one of
 the most used languages in the academic and scientific world. Even several
-reasons can be put forward, Python has four essential ingredients:
+reasons can be put forward, Python has three essential ingredients:
 
 * It is a language that can be learned really fast.
 * It is installed by default in most platforms, or it can be easily installed in the others.
-* Since it is an interpreted language, `code does not have to be compiled <https://towardsdatascience.com/how-does-python-work-6f21fd197888>`_.
 * It has a great amount of libraries that are installed by default.
 
-.. update:: October 23, 2021
+.. update:: November 1, 2025
 
-   Link added to explain better what I mean by non-compiled code.
+   Bullet point about the interpreted nature of Python removed after link to
+   its clarification was removed.
 
 It is important to remark that a scientist will only use those tools that
 provide the fastest possible way to compute a complex calculation. Therefore,

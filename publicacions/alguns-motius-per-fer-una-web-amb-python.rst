@@ -12,18 +12,17 @@ alguns dels avantatges de fer pàgines web amb Python.
 
 En els darrers anys, `Python <https://www.python.org/>`_  s'ha convertit en un
 dels llenguatges de programació més utilitzats en el món científic i acadèmic.
-Tot i que els motius són molt diversos, Python té quatre ingredients que són
+Tot i que els motius són molt diversos, Python té tres ingredients que són
 essencials:
 
 * És un llenguatge que es pot aprendre molt ràpidament.
 * Es troba instal·lat per defecte en molts sistemes operatius, o es pot instal·lar molt fàcilment en els altres.
-* Al ser un llenguatge interpretat, `evita haver de compilar el codi <https://towardsdatascience.com/how-does-python-work-6f21fd197888>`_.
 * Té una gran quantitat de llibreries que vénen instal·lades per defecte.
 
-.. update:: 23 octubre de 2021
+.. update:: 1 novembre de 2025
 
-   He afegit un enllaç per explicar millor què vull dir amb llenguatge no
-   compilat.
+   He eliminat el punt mencionant que és un llenguatge interpretat després que
+   ha desaparegut l'enllaç on s'aclaria.
 
 Cal tenir present que un científic només farà servir aquelles eines que li
 permetin resoldre un càlcul complex de la manera més ràpida possible. Això

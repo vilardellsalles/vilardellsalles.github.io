@@ -407,3 +407,5 @@ fontawesome_included = True
 # Choose to disqus posts that are drafts (without a published date),
 # default is ``False``.
 # disqus_drafts = False
+
+#linkcheck_ignore = [r'http://www.gtc.iac.es']

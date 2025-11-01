@@ -157,10 +157,14 @@ d'ordinadors, no es pugui considerar com una cosa constant, on el dia sempre
 dura 86400 segons i un minut sempre dura 60 segons. Hi ha moments, com el
 passat 31 de desembre de 2016, en els que un minut dura 61 segons. Aquest fet
 s'ignora en la major part del programari i `ha provocat nombrosos errors en el
-passat
-<https://en.wikipedia.org/wiki/Leap_second#Issues_created_by_insertion_%28or_removal%29_of_leap_seconds>`_,
+passat <https://en.wikipedia.org/wiki/Leap_second#Others>`_,
 fins i tot en grans multinacionals. Tot i que hi ha propostes per abolir el
 segon intercalar tot modificant la definició de UTC, la solució podria passar
 per que els ordinadors fessin servir el temps TAI per sincronitzar els seus
 rellotges, en lloc del temps UTC. Però això potser ho comento en una altra
 ocasió. 
+
+.. update:: 1 novembre de 2025
+
+   Enllaç als errors previs actualitzat, seguint l'actualització de la pàgina de Wikipedia.
+
