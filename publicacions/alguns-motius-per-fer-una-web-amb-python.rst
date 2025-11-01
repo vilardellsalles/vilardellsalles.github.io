@@ -118,7 +118,6 @@ Alguns dels principals motius per fer pàgines web amb Python són:
 
 #. És un llenguatge que es pot aprendre molt ràpidament.
 #. Es troba instal·lat per defecte en molts sistemes operatius, o es pot instal·lar molt fàcilment en els altres.
-#. Al ser un llenguatge interpretat, evita haver de compilar el codi.
 #. Té una gran quantitat de llibreries que vénen instal·lades per defecte.
 #. Hi ha una gran comunitat desenvolupant noves llibreries científiques, incloent les astronòmiques.
 #. S'integra perfectament dins un document HTML, permetent carregar contingut dinàmic en una pàgina web.

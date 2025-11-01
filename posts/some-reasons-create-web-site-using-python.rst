@@ -112,7 +112,6 @@ Some of the main reasons to create web site using Python are:
 
 #. It is a language that can be learned really fast.
 #. It is installed by default in most platforms, or it can be easily installed in the others.
-#. Since it is an interpreted language, code does not have to be compiled.
 #. It has a great amount of libraries that are installed by default.
 #. A large community is developing new scientific libraries, including astronomical ones.
 #. It can be seamlessly integrated in a HTML document, allowing dynamic content to be loaded in a web site.
