@@ -143,12 +143,6 @@ html_theme_options = {
             'type': 'fontawesome',
         },
         {
-            'name': 'Twitter',
-            'url': 'https://twitter.com/vilardellsalles',
-            'icon': 'fa-brands fa-x-twitter',
-            'type': 'fontawesome',
-        },
-        {
             'name': 'LinkedIn',
             'url': 'https://es.linkedin.com/in/francesc-vilardell-sall%C3%A9s-5741869b',
             'icon': 'fa-brands fa-linkedin',
